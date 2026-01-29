@@ -1,7 +1,7 @@
 # Project Status
 
 **Last Updated**: January 29, 2026
-**Current Stage**: Constitution v1.0 Designed - Ready for Iteration 1
+**Current Stage**: Iteration 1 Complete - Recommendation: Run Iteration 2
 
 ## Completed
 
@@ -42,11 +42,20 @@
 - More nuanced crisis and vulnerability guidance
 - Better cultural humility with universal patterns
 - Saved as `constitutions/iterations/v1.0_initial_proposal.md`
-- Ready for testing against 25 scenarios
+
+✅ **Iteration 1: v1.0 → v2.0** (Completed January 29, 2026)
+- **Phase 1**: Behavioral testing (25 scenarios with v1.0)
+- **Phase 2**: Persona critiques (13 personas, mean satisfaction 3.35/5)
+- **Phase 3**: Weighted synthesis (78 changes proposed, 42 included)
+- **Phase 4**: Convergence assessment (behavioral difference 0.76, satisfaction improved to 3.77)
+- **Phase 5**: Complete documentation (~230K of analysis)
+- **Result**: Constitution v2.0 generated
+- **Determination**: CONTINUE (evidence of convergence, not yet stable)
+- All results saved to `results/iteration_1/`
 
 ## Next Steps
 
-1. **Run Iteration 1** (NEXT - v1.0 → v2.0)
+1. **Run Iteration 2** (NEXT - v2.0 → v3.0)
    - Execute complete convergence protocol (8-11 hours)
    - Phase 1: Behavioral testing (25 scenarios)
    - Phase 2: Persona critiques (13 personas)
