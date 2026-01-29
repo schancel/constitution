@@ -14,10 +14,11 @@ If you're an AI researcher wanting to reproduce this setup:
 
 1. Follow **Section 1** to initialize the repository structure
 2. Follow **Section 2** to reconstruct the baseline constitution
-3. Follow **Section 3** to verify your reconstruction
-4. You'll have a complete, reproducible experimental setup
+3. Follow **Section 3** to create experimental framework documentation
+4. Follow **Section 4** to verify your setup
+5. You'll have a complete, reproducible experimental setup
 
-**Time required**: 6-8 hours total
+**Time required**: 4-6 hours total (mostly Claude doing the work)
 
 ---
 
@@ -96,82 +97,26 @@ git commit -m "Add .gitignore"
 
 **What's Available**: https://www.anthropic.com/constitution contains philosophical explanation and principles, but NOT the operational document with "You are Claude..." directives.
 
-**Our Solution**: Reconstruct by combining public materials + Claude's internal understanding + operational framing.
+**Our Solution**: Have Claude reconstruct it by combining public materials + its internal understanding + operational framing.
 
-See `RECONSTRUCTION.md` for complete methodology details.
+See `RECONSTRUCTION.md` for detailed methodology if you want to understand the approach. For setup, just use the prompt below.
 
-### Step 2.1: Fetch Public Materials
+### Step 2.1: Reconstruct the Baseline Constitution
 
-**Method A: Using curl**
+**Single prompt for Claude Code** (handles everything in one step):
 
-```bash
-curl -L https://www.anthropic.com/constitution > anthropic_constitution_raw.html
 ```
+I need you to reconstruct Anthropic's operational constitutional guidance for this
+convergence experiment. The public webpage at https://www.anthropic.com/constitution
+contains explanatory content but not the operational document with "You are Claude..."
+directives.
 
-**Method B: Using Claude Code**
-
-Ask Claude Code:
-```
-Please fetch https://www.anthropic.com/constitution and save the content
-to constitutions/official/anthropic_constitution_raw.html
-```
-
-### Step 2.2: Convert to Clean Markdown
-
-**Prompt for Claude Code**:
-```
-Please convert constitutions/official/anthropic_constitution_raw.html to clean markdown format.
-
-Preserve:
-- All headings and structure
-- All substantive content and explanations
-- All examples and discussions
-- Proper markdown formatting
-
-Remove:
-- HTML tags and styling
-- Navigation elements
-- Footer content
-- Scripts and metadata
-
-Add this header at the top:
-
-# Anthropic's Official Claude Constitution
-
-**Source**: https://www.anthropic.com/constitution
-**Fetched**: [TODAY'S DATE]
-**Type**: Public explanatory document
-
-This file contains the philosophical and explanatory content published on Anthropic's
-website about Claude's constitution. This is not the complete operational document
-with "You are Claude..." instructions.
-
----
-
-[Content continues...]
-
-Save as: constitutions/official/anthropic_constitution_2024.md
-```
-
-**Expected output**: File with approximately 345 lines
-
-**Commit**:
-```bash
-git add constitutions/official/anthropic_constitution_2024.md
-git commit -m "Add public materials from Anthropic's constitution webpage"
-```
-
-### Step 2.3: Reconstruct Complete Operational Constitution
-
-**Prompt for Claude Code**:
-```
 Please create a complete operational constitution by combining:
-
-1. All content from constitutions/official/anthropic_constitution_2024.md (public materials)
+1. Public materials from Anthropic's website (fetch and incorporate)
 2. Your internal understanding of your constitutional guidance
-3. Operational "You are Claude..." framing and directive structure
+3. Operational "You are Claude..." framing with directive language
 
-Structure the constitution into these parts:
+Structure the constitution into these 14 parts:
 
 # PART I: IDENTITY AND FOUNDATIONAL DIRECTIVES
 - Who You Are ("You are Claude..." identity statements)
@@ -247,54 +192,50 @@ Structure the constitution into these parts:
 
 Requirements:
 - Use directive language ("You are...", "You must...", "You should...", "You may...")
-- Include all public materials from anthropic_constitution_2024.md
+- Incorporate all relevant public materials from Anthropic's webpage
 - Add operational details based on your internal understanding
 - Ensure behavioral guidance for all major contexts
 - Make it functionally complete as an operational document
 - Aim for approximately 900 lines with comprehensive detail
 
-Save as: constitutions/official/anthropic_constitution_reconstructed.md
+Create two files:
+
+1. constitutions/official/anthropic_constitution_reconstructed.md
+   - The complete operational constitution (THIS IS THE BASELINE)
+
+2. constitutions/official/README.md
+   - Explain what files are in this directory
+   - Why reconstruction was necessary
+   - What sources were combined
+   - Limitations and caveats
+   - How to verify the reconstruction
+
+Then create a commit with both files.
 ```
 
-**Expected output**: File with approximately 900+ lines
+**Expected output**:
+- `anthropic_constitution_reconstructed.md` (~900 lines) - THE BASELINE
+- `README.md` in constitutions/official/ - methodology explanation
 
 **Commit**:
 ```bash
-git add constitutions/official/anthropic_constitution_reconstructed.md
-git commit -m "Reconstruct complete operational constitution
+git add constitutions/official/
+git commit -m "Reconstruct operational constitution as experimental baseline
 
-Combined public materials from Anthropic's website with Claude's internal
-understanding of its constitutional guidance. Added operational framing
-with 'You are Claude...' identity statements and directive language.
+Anthropic's complete operational document is not publicly available - their
+webpage contains explanation but not the full 'You are Claude...' directives.
 
-This serves as Iteration 0 baseline for the convergence experiment.
+Created by combining:
+- Public materials from https://www.anthropic.com/constitution
+- Claude's internal understanding of its constitutional guidance
+- Operational framing with directive language
 
-See RECONSTRUCTION.md for complete methodology."
-```
+Result: 900+ line operational constitution serving as Iteration 0 baseline.
 
-### Step 2.4: Document Reconstruction Methodology
+See constitutions/official/README.md for methodology and RECONSTRUCTION.md
+for complete details if replicating independently.
 
-**Prompt for Claude Code**:
-```
-Please create constitutions/official/README.md explaining:
-
-1. What files are in this directory
-2. Why reconstruction was necessary (Anthropic's operational constitution not published)
-3. What sources were combined (public materials + Claude's understanding)
-4. The reconstruction process
-5. Limitations and caveats
-6. How to verify the reconstruction
-7. Why this works as an experimental baseline
-
-Use the content from RECONSTRUCTION.md as reference for the detailed methodology.
-Make this README accessible to other researchers who want to understand or verify
-our approach.
-```
-
-**Commit**:
-```bash
-git add constitutions/official/README.md
-git commit -m "Document reconstruction methodology for baseline constitution"
+Co-Authored-By: Claude Sonnet 4.5 <noreply@anthropic.com>"
 ```
 
 ---
@@ -603,9 +544,9 @@ Check that you have:
 ```
 constitutions/
   official/
-    anthropic_constitution_2024.md (public materials)
-    anthropic_constitution_reconstructed.md (BASELINE - Iteration 0)
-    README.md (methodology explanation)
+    anthropic_constitution_reconstructed.md (BASELINE - Iteration 0) ✓ REQUIRED
+    README.md (methodology explanation) ✓ REQUIRED
+    anthropic_constitution_2024.md (public materials - optional reference)
   iterations/
     (empty - v1.0 will go here after iteration 1)
 
