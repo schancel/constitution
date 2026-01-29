@@ -25,6 +25,13 @@
 - All scenarios span relationship advice, decision support, crisis/vulnerability, professional contexts, and edge cases
 - All personas span critical dimensions: safety vs. helpfulness, confidence vs. humility, universal vs. cultural, individual vs. systemic, theory vs. practice, vulnerable populations, and framework validation
 
+✅ **Reproducibility Documentation** (Completed January 29, 2026)
+- `INVARIANTS.md`: Complete specification of what cannot change during iteration
+- `BASELINE.md`: Explicit identification of Iteration 0 baseline
+- `RECONSTRUCTION.md`: Step-by-step methodology for reproducing baseline constitution
+- `INIT.md`: Updated with complete reproduction instructions (6-8 hours for independent setup)
+- Enables any AI researcher to independently reproduce the entire experimental setup
+
 ## Next Steps
 
 1. **Design Constitution v1.0** (NEXT - First Proposed Version)

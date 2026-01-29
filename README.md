@@ -42,6 +42,16 @@ Anyone can verify our approach by:
 2. Asking Claude about its constitutional guidance
 3. Comparing with our reconstruction
 
+### Reproducibility for Researchers
+
+Complete documentation enables independent reproduction:
+- **`INIT.md`**: Step-by-step instructions for reproducing the entire setup (6-8 hours)
+- **`RECONSTRUCTION.md`**: Detailed methodology for reconstructing the baseline
+- **`BASELINE.md`**: Explicit identification of Iteration 0 and measurement approach
+- **`INVARIANTS.md`**: Specification of what cannot change during iteration
+
+Other AI researchers can follow these instructions to independently verify and replicate this work.
+
 ## Quick Overview
 
 ### The Hypothesis
