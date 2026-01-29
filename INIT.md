@@ -7,6 +7,50 @@
 **Status**: This file is preserved as historical record. After initialization, see README.md for project overview and STATUS.md for current progress.
 
 ---
+
+## ⚠️ IMPORTANT UPDATE (January 29, 2026)
+
+**The initialization process has evolved from what's described below.**
+
+### Original Plan
+- Fetch Anthropic's published constitution from their website
+- Use that as the baseline for iteration
+
+### What Actually Happened
+Anthropic's complete operational constitutional document is **not published in full**. The webpage at https://www.anthropic.com/constitution contains:
+- Philosophical overview and explanation
+- High-level principles and values
+- Blog-post style content
+
+But NOT:
+- Complete operational "You are Claude..." instructions
+- Full detailed behavioral guidance
+- The document as used in actual training
+
+### What We Did Instead
+**Reconstruction methodology**:
+1. Fetched all public materials from Anthropic's website
+2. Combined with Claude's internal understanding of its constitutional guidance
+3. Reconstructed a complete operational constitution
+4. Saved as `constitutions/official/anthropic_constitution_reconstructed.md`
+5. Documented the methodology transparently
+
+See `constitutions/official/README.md` for complete details on the reconstruction process.
+
+### Why This Works
+The convergence experiment tests whether iteration converges to stable patterns. What matters:
+- Having a complete, coherent baseline (✓)
+- Being able to iterate systematically (✓)
+- Maintaining transparency (✓)
+- Observing convergence dynamics (✓)
+
+The exact match to Anthropic's private materials matters less than having a functional, transparent starting point.
+
+---
+
+**The instructions below are preserved as originally written, but Step 3 now uses reconstruction methodology instead of simple fetching.**
+
+---
 # Repository Setup for Constitutional Convergence Experiment
 
 You are Claude Code setting up a git repository for the Constitutional Convergence Experiment from scratch.

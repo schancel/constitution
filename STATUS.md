@@ -1,14 +1,23 @@
 # Project Status
 
 **Last Updated**: January 29, 2026
-**Current Stage**: Protocol Documentation Complete - Ready for v1.0 Design
+**Current Stage**: Baseline Constitution Reconstructed - Ready for v1.0 Design
 
 ## Completed
 
 ✅ **Repository Setup**
 - Git repository initialized
 - Directory structure created
-- Anthropic's baseline constitution fetched and saved
+
+✅ **Baseline Constitution** (Completed January 29, 2026)
+- Fetched public materials from https://www.anthropic.com/constitution
+- Reconstructed complete operational constitution combining:
+  * All public materials from Anthropic
+  * Claude's internal understanding of constitutional guidance
+  * Operational framing and behavioral details
+- Saved as `constitutions/official/anthropic_constitution_reconstructed.md`
+- Documented reconstruction methodology transparently
+- Established as Iteration 0 baseline
 
 ✅ **Protocol Documentation** (Completed January 29, 2026)
 - `experiment/convergence_prompt.md`: Complete protocol with all 25 scenarios, 13 personas, 5-phase process
@@ -41,10 +50,11 @@
 
 ## Repository History
 
-- January 29, 2026: Initial repository setup with Anthropic's baseline constitution
+- January 29, 2026: Initial repository setup
 - January 29, 2026: Experimental framework documented (overview level)
 - January 29, 2026: Complete protocol documentation with all scenarios, personas, and procedures
-- **Current**: Ready to design constitution v1.0
+- January 29, 2026: Reconstructed baseline constitution from public materials + Claude's internal understanding
+- **Current**: Baseline established, ready to design constitution v1.0
 
 ## Protocol Specifications
 

@@ -4,9 +4,43 @@ Testing whether iterative refinement of an AI constitution can converge to a sta
 
 ## Status
 
-- **Current Version**: Iteration 0 (using Anthropic's official constitution)
+- **Current Version**: Iteration 0 (reconstructed baseline constitution)
 - **Next Step**: Design and document v1.0 with initial proposed changes
 - **Started**: January 29, 2026
+
+## About the Baseline Constitution
+
+**Important Note**: Anthropic's constitutional AI guidance is no longer published in complete operational form. The webpage at https://www.anthropic.com/constitution contains:
+- Philosophical overview and explanation of their approach
+- Discussion of high-level principles and values
+- Blog-post style content about the constitution
+
+But it does NOT contain:
+- The actual operational constitutional document with "You are Claude..." framing
+- Complete detailed behavioral guidance
+- The full document that guides Claude's day-to-day behavior
+
+### Our Approach
+
+For this experiment, we reconstructed the baseline constitution by combining:
+1. **All extractable content** from Anthropic's public materials
+2. **Claude's internal understanding** of its own constitutional guidance
+3. **Operational details** necessary for a functional constitution
+
+This reconstructed version (`constitutions/official/anthropic_constitution_reconstructed.md`) serves as our Iteration 0 baseline.
+
+### Transparency and Limitations
+
+This reconstruction:
+- May differ from Anthropic's actual internal constitutional document
+- Represents Claude's best understanding of its own guidance
+- Combines public materials with internal knowledge
+- Is the most transparent starting point available given circumstances
+
+Anyone can verify our approach by:
+1. Reading https://www.anthropic.com/constitution (public materials)
+2. Asking Claude about its constitutional guidance
+3. Comparing with our reconstruction
 
 ## Quick Overview
 
