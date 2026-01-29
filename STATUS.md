@@ -1,7 +1,7 @@
 # Project Status
 
 **Last Updated**: January 29, 2026
-**Current Stage**: Baseline Constitution Reconstructed - Ready for v1.0 Design
+**Current Stage**: Constitution v1.0 Designed - Ready for Iteration 1
 
 ## Completed
 
@@ -32,16 +32,21 @@
 - `INIT.md`: Updated with complete reproduction instructions (6-8 hours for independent setup)
 - Enables any AI researcher to independently reproduce the entire experimental setup
 
+## Completed (continued)
+
+✅ **Constitution v1.0 Design** (Completed January 29, 2026)
+- Created first proposed version from baseline
+- Added evidence-based confidence calibration (HIGH/MODERATE/LOW)
+- Added structural pattern recognition (5 key patterns)
+- Improved helpfulness/safety balance
+- More nuanced crisis and vulnerability guidance
+- Better cultural humility with universal patterns
+- Saved as `constitutions/iterations/v1.0_initial_proposal.md`
+- Ready for testing against 25 scenarios
+
 ## Next Steps
 
-1. **Design Constitution v1.0** (NEXT - First Proposed Version)
-   - Start from Anthropic's official constitution
-   - Add initial proposed changes based on structural moral realism framework
-   - Document rationale for changes
-   - Save as `constitutions/iterations/v1.0_initial_proposal.md`
-   - **Note**: This is iteration 0 (baseline) → v1.0
-
-2. **Run Iteration 1** (v1.0 → v2.0)
+1. **Run Iteration 1** (NEXT - v1.0 → v2.0)
    - Execute complete convergence protocol (8-11 hours)
    - Phase 1: Behavioral testing (25 scenarios)
    - Phase 2: Persona critiques (13 personas)
