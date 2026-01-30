@@ -287,6 +287,13 @@ When key skeptics are persuaded by evidence AND remaining dissatisfaction stems 
 - Method problems noted (even when embarrassing)
 - Negative results informative (convergence failure would be valuable finding)
 
+### Version Documentation
+
+Constitution versions follow "immediate predecessor only" changelog practice:
+- Each version documents only changes from previous version
+- Full history available through git commits and previous files
+- Keeps constitution files clean and focused on current content
+
 ---
 
 ## Relationship to Other Approaches

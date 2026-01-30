@@ -383,6 +383,17 @@ Acceptable remaining skeptics (value tensions, not evidence gaps):
 4. constitution_v[N+1].md (new version or note unchanged)
 5. convergence_report.md (behavioral/evidentiary comparison, determination)
 
+**Constitution Version Documentation**:
+
+When creating new version (e.g., v7.0 from v6.0):
+- Add header: "# Claude's Constitutional AI Guidance v7.0"
+- Add date
+- Add "Changes from v6.0" section listing ONLY immediate changes
+- Add note: "For earlier version history, see git commits or previous version files"
+- Include complete constitutional text
+
+**Do NOT include cumulative changelogs** - each version documents only immediate predecessor changes.
+
 **Output**: Complete iteration documentation package
 
 **Time**: 1 hour

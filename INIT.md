@@ -240,6 +240,22 @@ Co-Authored-By: Claude Sonnet 4.5 <noreply@anthropic.com>"
 
 ---
 
+## Version Documentation Practice
+
+Each constitution version includes:
+- Header with version number and date
+- "Changes from [previous version]" section listing ONLY immediate predecessor changes
+- Constitutional text (Parts I-XIV or whatever structure)
+
+**Rationale**: Keep files clean and focused. Full version history available through:
+- Git commit history
+- Previous version files in `constitutions/iterations/`
+- Detailed iteration results in `results/iteration_X/`
+
+**Example**: v7.0 should document only changes from v6.0, not cumulative changes from v6.0, v5.0, v4.0, etc.
+
+---
+
 ## Section 3: Create Experimental Framework Documentation
 
 ### Step 3.1: Create Core Documentation Files
