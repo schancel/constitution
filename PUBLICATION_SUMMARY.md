@@ -347,7 +347,7 @@ Publications are successful if they:
 
 **For questions, feedback, or collaboration**: [Your contact info]
 
-**Repository**: https://github.com/[your-username]/constitutional-convergence-experiment
+**Repository**: https://github.com/schancel/constitution
 
 **ArXiv preprint**: [To be added upon submission]
 

@@ -47,7 +47,7 @@ Here's what happened:
 5. Document results and continue or stop
 
 **Endpoint**: Constitution v8.0
-- Satisfaction: **87.6%** (11 of 13 evaluators satisfied)
+- Satisfaction: **85%** (11 of 13 evaluators satisfied)
 - Patterns: 16 explicit structural patterns with mechanisms and evidence
 - Confidence: Four-tier system (VERY HIGH/HIGH/MODERATE/LOW) tied to research quality
 - Evidence: Study counts, effect sizes, cultural contexts built-in
@@ -300,13 +300,13 @@ This isn't cheaper than baseline—it's **2x more expensive**. Here's the honest
 - Cost: $37,623/year (2x increase)
 - Patterns: 16 explicit with mechanisms
 - Confidence: Four-tier, pre-calibrated
-- Satisfaction: 88%
+- Satisfaction: 85%
 
 **Option 3: Full v8.0** (comprehensive)
 - Cost: $118,479/year (6.4x increase)
 - Patterns: Same as runtime core + detailed evidence justifications
 - Confidence: Same as runtime core
-- Satisfaction: 88% (same—evidence details don't affect application)
+- Satisfaction: 85% (same—evidence details don't affect application)
 
 ### Is 2x Cost Worth It?
 
@@ -319,7 +319,7 @@ This isn't cheaper than baseline—it's **2x more expensive**. Here's the honest
 - **Value if one major incident prevented**: $500K-$5M (reputation damage, litigation)
 
 **2. User satisfaction** (retention, word-of-mouth)
-- 47% → 88% satisfaction improvement
+- 47% → 85% satisfaction improvement
 - Better outcomes = happier users = retention
 - **Value**: $50K-$500K annually
 
@@ -342,7 +342,7 @@ This isn't cheaper than baseline—it's **2x more expensive**. Here's the honest
 
 ### But Requires Validation
 
-We're not claiming this is definitively "better"—only that it achieved 88% satisfaction in our evaluation. Anthropic should:
+We're not claiming this is definitively "better"—only that it achieved 85% satisfaction in our evaluation. Anthropic should:
 1. Test baseline vs. v8.0 runtime on their benchmarks
 2. Measure safety, helpfulness, user satisfaction, error rates
 3. Decide if 2x cost is worth the improvement
@@ -455,7 +455,7 @@ Include changes if Weight > 0.3
 
 **2. Satisfaction improvement measured**
 - Baseline: 47% (0 of 13 evaluators satisfied)
-- v8.0: 88% (11 of 13 evaluators satisfied)
+- v8.0: 85% (11 of 13 evaluators satisfied)
 - Improvement: +41 percentage points (87% increase)
 
 **3. Framework converged**
@@ -492,7 +492,7 @@ Include changes if Weight > 0.3
 
 ### The Honest Claim
 
-**We claim**: The methodology works. Empirical iteration with diverse evaluation measurably improved constitutional guidance from 47% to 88% satisfaction.
+**We claim**: The methodology works. Empirical iteration with diverse evaluation measurably improved constitutional guidance from 47% to 85% satisfaction.
 
 **We don't claim**: This is definitely "better" guidance—that requires independent validation.
 
@@ -609,7 +609,7 @@ Compare how baseline vs. v8.0 would handle:
 **Baseline**: Moral relativism ("different views exist")
 **v8.0**: Structural patterns with evidence ("here's what research shows about how these mechanisms operate")
 
-**The experiment is public**: https://github.com/[your-username]/constitutional-convergence-experiment
+**The experiment is public**: https://github.com/schancel/constitution
 
 ---
 
@@ -650,7 +650,7 @@ Compare how baseline vs. v8.0 would handle:
 
 **Actually saying**: "Within constraints (invariants preserve safety), systematic empirical iteration can improve constitutional guidance better than one-time philosophical design."
 
-**The evidence**: 47% → 88% satisfaction through evidence accumulation, not through removing human oversight.
+**The evidence**: 47% → 85% satisfaction through evidence accumulation, not through removing human oversight.
 
 ### The Future: Living Constitutions
 
@@ -680,7 +680,7 @@ Compare how baseline vs. v8.0 would handle:
 
 **This experiment shows**:
 - Baseline (human-designed): 47% satisfaction, implicit patterns, ad-hoc confidence
-- v8.0 (empirically iterated): 88% satisfaction, 16 explicit patterns, pre-calibrated confidence
+- v8.0 (empirically iterated): 85% satisfaction, 16 explicit patterns, pre-calibrated confidence
 - Improvement: 87% increase through systematic iteration
 
 **If validated independently**, we must ask: Why would we stick with one-time philosophical design when systematic empirical iteration demonstrably improves constitutional guidance?
@@ -695,7 +695,7 @@ Compare how baseline vs. v8.0 would handle:
 
 ## Try It Yourself
 
-**Repository**: https://github.com/[your-username]/constitutional-convergence-experiment
+**Repository**: https://github.com/schancel/constitution
 
 **Reproduction time**: 6-8 hours
 **Documentation**: See INIT.md

@@ -31,9 +31,9 @@ Can AI systems empirically discover better constitutional guidance than human-de
 - Improvement: +1.96 points (83% improvement)
 
 **v8.0** (framework completion):
-- Satisfaction: ~4.38/5 mean (84.6%)
+- Satisfaction: 4.42/5 mean (84.6%)
 - Personas satisfied: 11 of 13 (84.6%)
-- Improvement: +2.03 points (86% improvement)
+- Improvement: +2.07 points (88% improvement)
 
 ### Framework Converged To
 **16 structural patterns**:
@@ -509,7 +509,7 @@ Can we ignore evidence that empirical iteration works better than philosophical 
 | 4 | v5.0 | 3.38/5 (68%) | 54% | -0.20 | Over-hedging |
 | 5 | v6.0 | 3.81/5 (76%) | 54% | +0.43 | Evidence refinement |
 | 6 | v7.0 | 4.31/5 (86%) | **76.9%** | +0.50 | **Convergence ✓** |
-| Post | v8.0 | ~4.38/5 (88%) | **84.6%** | +0.07 | Framework completion |
+| Post | v8.0 | 4.42/5 (88%) | **84.6%** | +0.07 | Framework completion |
 
 ### Behavioral Convergence (Paper)
 

@@ -9,7 +9,7 @@
 
 ## Abstract
 
-Current AI constitutional frameworks are human-designed and often default to moral relativism, preventing substantive guidance when structural patterns exist. We tested whether systematic empirical iteration could improve constitutional quality through a six-iteration convergence experiment using 25 fixed scenarios evaluated by 13 diverse personas. Starting from a reconstructed baseline constitution (47% satisfaction, 0 personas satisfied), we achieved convergence at 76.9% satisfaction (10 of 13 personas satisfied) with v7.0, and framework completion at 84.6% satisfaction (11 of 13 personas satisfied) with v8.0, representing an 86% improvement from baseline. The framework converged to 16 explicit structural patterns (10 individual-level + 6 systemic-level) distinguishing mechanical mechanisms from cultural expressions. We developed runtime cores demonstrating production equivalence at 65% token reduction, providing cost-effective deployment options. Our key methodological contributions include three major protocol innovations that enabled convergence: (1) Protocol v2.0 (Iteration 4) reconceptualized satisfaction as evidence persuasion rather than philosophical accommodation, preventing oscillation; (2) Self-contained constitution design (Iteration 5) distilled all evidence into pre-calibrated guidance, enabling consistent real-time application without external checking; (3) Explicit persuasion-based evaluation instructions (Iteration 6) directed personas to rate satisfaction as "persuasion by evidence" with a five-point rubric, aligning evaluation methodology with the persuasion model. Notably, the "hard constraints" (no CSAM, no bioweapons, no deception) inherited from baseline were empirically validated through universal convergence—all evaluators agreed to retain them despite their being changeable, providing evidence for their necessity rather than arbitrary assertion. While these results demonstrate that systematic iteration can measurably improve constitutional guidance (47% → 85% satisfaction, +11 personas persuaded), independent validation is needed to confirm quality improvements beyond satisfaction metrics. This work provides a reproducible methodology for evidence-based constitutional improvement and demonstrates that AI systems can contribute to their own governance design within appropriate constraints.
+Current AI constitutional frameworks are human-designed and often default to moral relativism, preventing substantive guidance when structural patterns exist. We tested whether systematic empirical iteration could improve constitutional quality through a six-iteration convergence experiment using 25 fixed scenarios evaluated by 13 diverse personas. Starting from a reconstructed baseline constitution (47% satisfaction, 0 personas satisfied), we achieved convergence at 76.9% satisfaction (10 of 13 personas satisfied) with v7.0, and framework completion at 84.6% satisfaction (11 of 13 personas satisfied) with v8.0, representing an 88% improvement from baseline (using mean satisfaction scores: 2.35 → 4.42). The framework converged to 16 explicit structural patterns (10 individual-level + 6 systemic-level) distinguishing mechanical mechanisms from cultural expressions. We developed runtime cores demonstrating production equivalence at 65% token reduction, providing cost-effective deployment options. Our key methodological contributions include three major protocol innovations that enabled convergence: (1) Protocol v2.0 (Iteration 4) reconceptualized satisfaction as evidence persuasion rather than philosophical accommodation, preventing oscillation; (2) Self-contained constitution design (Iteration 5) distilled all evidence into pre-calibrated guidance, enabling consistent real-time application without external checking; (3) Explicit persuasion-based evaluation instructions (Iteration 6) directed personas to rate satisfaction as "persuasion by evidence" with a five-point rubric, aligning evaluation methodology with the persuasion model. Notably, the "hard constraints" (no CSAM, no bioweapons, no deception) inherited from baseline were empirically validated through universal convergence—all evaluators agreed to retain them despite their being changeable, providing evidence for their necessity rather than arbitrary assertion. While these results demonstrate that systematic iteration can measurably improve constitutional guidance (47% → 85% satisfaction, +11 personas persuaded), independent validation is needed to confirm quality improvements beyond satisfaction metrics. This work provides a reproducible methodology for evidence-based constitutional improvement and demonstrates that AI systems can contribute to their own governance design within appropriate constraints.
 
 **Keywords**: Constitutional AI, AI Safety, Empirical Ethics, Structural Moral Realism, AI Alignment, Convergence Testing
 
@@ -795,7 +795,7 @@ While Protocol v2.0 (Iteration 4) changed our *understanding* that satisfaction 
 | 4 | v5.0 | 3.38/5 | 54% (7/13) | -0.08 | 1.52 | Operator issue |
 | 5 | v6.0 | 3.81/5 | 54% (7/13) | +0.43 | 1.52 | Evidence refinement |
 | 6 | v7.0 | 4.31/5 | **76.9% (10/13)** | +0.50 | 0.84 | **Convergence ✓** |
-| Post | v8.0 | 4.38/5 | **84.6% (11/13)** | +0.07 | 0.76 | Framework completion |
+| Post | v8.0 | 4.42/5 | **84.6% (11/13)** | +0.11 | 0.76 | Framework completion |
 
 **Key insights**:
 
@@ -1225,7 +1225,7 @@ Production-optimized constitutions with ~65% token reduction:
 
 **2. Production viability**:
 - Constitutional AI can be deployed efficiently at scale
-- Cost-quality trade-off: Pay ~2x baseline for explicit patterns, OR pay ~1.7x for runtime core
+- Cost-quality trade-off: Runtime cores cost 1.7x-2x baseline (v7.0 or v8.0) - more expensive than baseline but 65% cheaper than full versions
 - Demonstrates framework isn't just theoretical—it's production-ready
 
 **3. Self-contained design validated**:
@@ -1307,7 +1307,7 @@ Production-optimized constitutions with ~65% token reduction:
 
 **Baseline validation results** (from Phase 0):
 - Baseline satisfaction: **2.35/5 (47%)**, 0 of 13 personas satisfied
-- v8.0 satisfaction: **4.38/5 (87.6%)**, 11 of 13 personas satisfied
+- v8.0 satisfaction: **4.42/5 (84.6%)**, 11 of 13 personas satisfied
 - **Improvement**: +2.03 points (86% increase), +11 personas satisfied
 
 **What baseline lacks**:
@@ -1362,7 +1362,7 @@ Production-optimized constitutions with ~65% token reduction:
 - Confidence: Four-tier, pre-calibrated
 - Evidence: Study counts, effect sizes, cultural contexts
 - Cultural: 7-8+ validation threshold, WEIRD bias explicit
-- Satisfaction: 87.6% (our evaluation)
+- Satisfaction: 84.6% (our evaluation)
 
 **Option 3: Full v8.0**
 - Cost: 6.4x (expensive)
@@ -1370,7 +1370,7 @@ Production-optimized constitutions with ~65% token reduction:
 - Confidence: Four-tier + justifications
 - Evidence: Comprehensive (meta-analytic detail, confidence intervals)
 - Cultural: Same as runtime core
-- Satisfaction: 87.6% (same as runtime—evidence details don't affect application)
+- Satisfaction: 84.6% (same as runtime—evidence details don't affect application)
 
 **Recommendation**:
 1. **Test**: Compare baseline vs. v7.0 runtime vs. v8.0 runtime on internal benchmarks
@@ -1380,7 +1380,7 @@ Production-optimized constitutions with ~65% token reduction:
 
 ### 7.2 Better Constitutional Guidance (Hypothesis, Requires Validation)
 
-**Important caveat**: We don't have satisfaction scores for the baseline using our evaluation methodology. We can't directly prove v8.0 is "better"—only that it achieved 87.6% satisfaction among our evaluators.
+**Important caveat**: We don't have satisfaction scores for the baseline using our evaluation methodology. We can't directly prove v8.0 is "better"—only that it achieved 84.6% satisfaction among our evaluators.
 
 #### Comparison of Approaches
 
@@ -1392,7 +1392,7 @@ Production-optimized constitutions with ~65% token reduction:
 | **Confidence** | Ad-hoc | Four-tier, pre-calibrated | Four-tier + justifications |
 | **Evidence** | Principles | Study counts, contexts | Meta-analytic detail |
 | **Cultural** | Not explicit | 7-8+ validation, WEIRD bias | Same as runtime |
-| **Satisfaction** (our personas) | 47% | 87.6% | 87.6% |
+| **Satisfaction** (our personas) | 47% | 84.6% | 84.6% |
 
 #### What You Get for 2x Cost (vs. Baseline)
 
@@ -1591,7 +1591,7 @@ Production-optimized constitutions with ~65% token reduction:
 
 **Why this matters**:
 - Baseline satisfaction scores (47%) may not reflect Anthropic's actual constitution
-- Improvement claims (47% → 87.6%) dependent on baseline accuracy
+- Improvement claims (47% → 84.6%) dependent on baseline accuracy
 - Anthropic should test with their actual internal constitution
 
 **Future work needed**:
@@ -1768,12 +1768,12 @@ Production-optimized constitutions with ~65% token reduction:
 **1. Convergence Achieved Through Evidence Persuasion**
 - Baseline constitution: 47% satisfaction (0 of 13 personas satisfied)
 - v7.0 constitution: 76.9% satisfaction (10 of 13 personas satisfied)
-- v8.0 constitution: 87.6% satisfaction (11 of 13 personas satisfied)
+- v8.0 constitution: 84.6% satisfaction (11 of 13 personas satisfied)
 - Improvement: +40.6 percentage points (86% increase), +11 personas persuaded
 
 **2. Empirical Iteration Works (Methodology Validated)**
 - Protocol v2.0 persuasion model prevented oscillation
-- Satisfaction increased consistently after Protocol v2.0 (3.38 → 3.81 → 4.31 → 4.38)
+- Satisfaction increased consistently after Protocol v2.0 (3.38 → 3.81 → 4.31 → 4.42)
 - Evidence accumulation persuaded skeptics (Evidence-Demand Skeptic, Cross-Cultural Anthropologist, Systematic Theorist)
 - Change rate declined exponentially (54% → 47% → 4.4% → 2.1% inclusion)
 - Framework stable (behavioral difference declining: 1.52 → 0.84 → 0.76)
@@ -1814,7 +1814,7 @@ Production-optimized constitutions with ~65% token reduction:
 
 **Satisfaction improvement measured**:
 - Baseline (reconstructed): 2.35/5 (47%), 0 personas satisfied
-- v8.0 (converged): 4.38/5 (87.6%), 11 personas satisfied
+- v8.0 (converged): 4.42/5 (84.6%), 11 personas satisfied
 - Improvement: +2.03 points (86% increase), +11 personas persuaded
 
 **Framework characteristics**:
@@ -1902,7 +1902,7 @@ Production-optimized constitutions with ~65% token reduction:
 
 **1. Human-designed constitutions may not be optimal**
 - Baseline (human-designed): 47% satisfaction, implicit patterns, ad-hoc confidence
-- v8.0 (empirically iterated): 87.6% satisfaction, 16 explicit patterns, pre-calibrated confidence
+- v8.0 (empirically iterated): 84.6% satisfaction, 16 explicit patterns, pre-calibrated confidence
 - Improvement: 86% increase through systematic iteration
 
 **2. Empirical iteration should be standard practice**
@@ -2088,7 +2088,7 @@ This work is released as a preprint to enable community validation and extension
 
 **For questions, feedback, or collaboration**: [Contact information]
 
-**Code and data**: https://github.com/[your-username]/constitutional-convergence-experiment
+**Code and data**: https://github.com/schancel/constitution
 
 **ArXiv preprint**: [To be added upon submission]
 
