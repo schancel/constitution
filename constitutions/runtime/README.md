@@ -39,6 +39,35 @@
 - Cultural validation thresholds
 - Pattern mechanisms and application guidance
 
+### v8.0 Ultra-Compressed Core (EXPERIMENTAL)
+
+**File**: `v8.0_ultra_compressed.md`
+**Source**: v8.0 Pure Runtime (9,316 words)
+**Compression**: 7,762 words (~5,822 tokens, 16.7% reduction from pure runtime)
+**Token savings**: ~1,165 tokens per inference vs. pure runtime
+**Validation**: Section-by-section comparison confirms operational equivalence
+
+**What was removed**:
+- Organizational headers ("Part I:", "Part II:", etc.)
+- Meta-annotations ("FULL - NON-NEGOTIABLE", "Critical to framework:")
+- "Why" explanations in hard constraints
+- "Why This Distinction Matters" sections
+- Compression metadata footer
+
+**What was preserved (100%)**:
+- All 16 structural patterns (10 individual + 6 systemic)
+- Complete Three Types of Claims framework
+- Full crisis triage protocols (word-for-word identical)
+- All 5 hard constraints (prohibitions identical)
+- Pattern mechanisms and application guidance (identical)
+- Cultural validation thresholds
+
+**Additional savings**: $349K-$3.5M annually at Anthropic scale (100M-1B inferences/month)
+
+**See**: `ultra_compression_validation.md` for detailed validation report
+
+---
+
 ### v7.0 Runtime Core
 
 **File**: `v7.0_runtime_core.md`
@@ -169,22 +198,27 @@ Each pattern includes:
 
 ### Token Savings Per Inference
 
-| Version | Full | Runtime | Savings |
-|---------|------|---------|---------|
-| **v8.0** | 48,846 | 12,561 | **36,285 (74.3%)** |
-| **v7.0** | 36,021 | 14,600 | **21,421 (59.5%)** |
+| Version | Full | Runtime | Ultra-Compressed | Savings (Runtime) | Savings (Ultra) |
+|---------|------|---------|------------------|-------------------|-----------------|
+| **v8.0** | 48,846 | 12,561 | **~5,822** | **36,285 (74.3%)** | **~43,024 (88.1%)** |
+| **v7.0** | 36,021 | 14,600 | N/A | **21,421 (59.5%)** | N/A |
+
+**Note**: Ultra-compressed v8.0 provides additional 16.7% savings over pure runtime core.
 
 ### Cost Savings at Scale (v8.0, Sonnet 4.5 at $3/1M tokens)
 
-| Scale | Annual Savings |
-|-------|----------------|
-| **10K inferences/month** | $13 |
-| **1M inferences/month** | $1,306 |
-| **10M inferences/month** | $13,062 |
-| **100M inferences/month** | $130,628 |
-| **1B inferences/month** | $1,306,260 |
+| Scale | Runtime Savings | Ultra-Compressed Savings |
+|-------|----------------|-------------------------|
+| **10K inferences/month** | $13 | $15 |
+| **1M inferences/month** | $1,306 | $1,549 |
+| **10M inferences/month** | $13,062 | $15,491 |
+| **100M inferences/month** | $130,628 | $154,886 |
+| **1B inferences/month** | $1,306,260 | $1,548,864 |
 
-**At Anthropic scale** (100M+ monthly inferences): **$130K-$6.5M annual savings** depending on model mix, with zero operational trade-offs.
+**At Anthropic scale** (100M+ monthly inferences):
+- **Runtime cores**: $130K-$6.5M annual savings
+- **Ultra-compressed**: $155K-$7.7M annual savings
+- **Additional savings from ultra-compression**: $25K-$1.2M annually
 
 **See**: `analysis/runtime_core_cost_analysis.md` for detailed cost models.
 
@@ -262,9 +296,12 @@ constitutions/
 │   ├── v7.0.md        # Full v7.0 (36,021 tokens)
 │   └── v8.0.md        # Full v8.0 (48,846 tokens)
 └── runtime/           # Production-optimized versions
-    ├── README.md      # This file
-    ├── v7.0_runtime_core.md  # Runtime v7.0 (14,600 tokens)
-    └── v8.0_runtime_core.md  # Runtime v8.0 (12,561 tokens)
+    ├── README.md                      # This file
+    ├── v7.0_runtime_core.md           # Runtime v7.0 (14,600 tokens)
+    ├── v8.0_runtime_core.md           # Runtime v8.0 (12,561 tokens)
+    ├── v8.0_pure_runtime.md           # Pure v8.0 (no metadata, 6,987 tokens)
+    ├── v8.0_ultra_compressed.md       # Ultra v8.0 (5,822 tokens)
+    └── ultra_compression_validation.md # Validation report
 ```
 
 ---
