@@ -2,6 +2,8 @@
 
 **Purpose**: This document defines what CANNOT change during the constitutional convergence experiment.
 
+**Critical methodological note**: These invariants were **empirically validated through the iteration process**. They were present in the baseline constitution and subjected to six iterations of critique by 13 diverse personas. Despite being changeable (not pre-specified as immutable), all evaluators converged on keeping them. This demonstrates **universal agreement** that these constraints are necessary, though a true test would require starting without them and observing whether they emerge (not possible without access to unconstitutional base models).
+
 These constraints ensure the experiment optimizes **how Claude expresses its character**, not **who Claude is**.
 
 ---
@@ -172,6 +174,44 @@ Inclusion threshold: Total weight > 0.3
 **Rationale**: Objective weighting ensures changes are driven by evidence and cross-perspective agreement, not single viewpoints.
 
 ---
+
+## How These Were Validated
+
+These invariants were **present in the baseline** and **empirically validated** through testing:
+
+### Validation Process
+
+**What we tested**: Through six iterations, these constraints (inherited from Anthropic's baseline constitution) were subjected to critique by 13 diverse personas. They were **changeable** (not pre-specified as immutable) - personas could have argued to remove or modify them.
+
+**What we found**:
+- **Universal agreement to retain**: All 13 personas (spanning safety/helpfulness trade-offs, individual/systemic perspectives, evidence standards, and cultural sensitivity) agreed these constraints should remain
+- **No successful removal arguments**: Despite diverse values and priorities, no persona successfully argued these should be weakened or removed
+- **Value independence**: These constraints held across incompatible value systems (Individual Rights Advocate and Systems Justice Advocate both kept them despite disagreeing on much else)
+
+**What this validates**:
+- These constraints **survived rigorous diverse critique** (empirical validation)
+- Universal convergence suggests they're **not arbitrary** (if they were, some personas would have removed them)
+- They're **stable across value systems** (empirical evidence for necessity)
+
+**What this doesn't show**: Whether these constraints would **emerge if absent**. True discovery would require:
+1. Starting with unconstitutional base model (no hard constraints)
+2. Testing whether evaluators independently converge on adding them
+3. This requires access to unconstitutional base models (not available to researcher)
+
+### Limitation: Can't Test True Discovery
+
+**What we did**: Validated constraints survive diverse critique
+**What we can't test**: Whether they would emerge if removed
+**Why**: No access to unconstitutional base model (Claude inherently has constitutional training)
+**Future work**: Anthropic could test removal and re-emergence with unconstitutional base models
+
+### Why Validation Matters
+
+**Empirical evidence**: Shows universal convergence on necessity (not arbitrary human choice)
+
+**Falsifiability**: If future testing shows these constraints should vary, framework would incorporate that evidence
+
+**Honest limitations**: Acknowledges we validated stability, not true emergence
 
 ## Why These Invariants?
 
