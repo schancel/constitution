@@ -1211,13 +1211,13 @@ Production-optimized constitutions with ~65% token reduction:
 
 **Cost analysis**:
 - Baseline: $18.57/million inferences
-- Ultra-compressed v8.0: $17.47/million inferences
+- Runtime core v8.0: $17.47/million inferences
 - **Savings vs baseline**: $1.10/million inferences (6% reduction)
 - **Savings vs full v8.0**: $101.01/million inferences (85% reduction)
 
 **At Anthropic scale**:
 - Baseline annual cost: $186K - $1.86M (100M-1B inferences/month)
-- Ultra-compressed v8.0 annual cost: $175K - $1.75M
+- Runtime core v8.0 annual cost: $175K - $1.75M
 - **Annual savings vs baseline**: $11K - $110K
 - **Annual savings vs full v8.0**: $1.24M - $12.47M
 
@@ -1230,7 +1230,7 @@ Production-optimized constitutions with ~65% token reduction:
 
 **2. Production viability**:
 - Constitutional AI can be deployed efficiently at scale
-- Cost-quality trade-off: Ultra-compressed v8.0 is **6% CHEAPER than baseline** (5,822 vs 6,191 tokens) while providing 88% improvement
+- Cost-quality trade-off: Runtime core v8.0 is **6% CHEAPER than baseline** (5,822 vs 6,191 tokens) while providing 88% improvement
 - Demonstrates framework isn't just theoretical—it's production-ready and economically superior
 
 **3. Self-contained design validated**:
@@ -1248,15 +1248,15 @@ Production-optimized constitutions with ~65% token reduction:
 **Three deployment options**:
 
 1. **Baseline** (6,191 tokens): 1x cost, implicit patterns, ad-hoc confidence, 47% satisfaction
-2. **Ultra-compressed v8.0** (5,822 tokens): **0.94x cost (6% CHEAPER)**, 16 explicit patterns, pre-calibrated confidence, 84.6% satisfaction
+2. **Runtime core v8.0** (5,822 tokens): **0.94x cost (6% CHEAPER)**, 16 explicit patterns, pre-calibrated confidence, 84.6% satisfaction
 3. **Full v8.0** (39,493 tokens): 6.4x cost, 16 patterns + full evidence documentation
 
 **For Anthropic**:
-- **Claiming**: Ultra-compressed v8.0 is cheaper than baseline AND dramatically better (88% improvement in satisfaction)
+- **Claiming**: Runtime core v8.0 is cheaper than baseline AND dramatically better (88% improvement in satisfaction)
 - **No trade-off**: You get better guidance for less money
 - **The question is no longer**: "Is improvement worth the cost?" but "Why would you use baseline when this is cheaper AND better?"
 
-**Should Anthropic adopt ultra-compressed v8.0?**
+**Should Anthropic adopt runtime core v8.0?**
 - **Yes**, unless independent validation shows it's NOT actually better
 - Cheaper than baseline (6% cost reduction)
 - Massively improved satisfaction (47% → 84.6%)
@@ -1272,12 +1272,12 @@ Production-optimized constitutions with ~65% token reduction:
 #### The Honest Cost Comparison
 
 **Current baseline** (6,191 tokens): ~$18,573/year (100M inferences/month)
-**Ultra-compressed v8.0** (5,822 tokens): ~$17,466/year
+**Runtime core v8.0** (5,822 tokens): ~$17,466/year
 **Cost savings**: ~$1,107/year (6% reduction)
 
 **At 1B inferences/month**:
 - Baseline: ~$185,730/year
-- Ultra-compressed v8.0: ~$174,660/year
+- Runtime core v8.0: ~$174,660/year
 - **Annual savings: ~$11,070/year**
 
 **We ARE claiming**: "This is cheaper than baseline AND dramatically better quality"
@@ -1385,10 +1385,10 @@ Production-optimized constitutions with ~65% token reduction:
 - Satisfaction: 84.6% (same as runtime—evidence details don't affect application)
 
 **Recommendation**:
-1. **Test**: Compare baseline vs. v8.0 ultra-compressed on internal benchmarks
+1. **Test**: Compare baseline vs. v8.0 runtime core on internal benchmarks
 2. **Measure**: Safety, helpfulness, user satisfaction, error rates, cultural appropriateness
 3. **Decide**: If v8.0 validates as better (extremely likely given our results), adopt immediately
-4. **Deploy**: Ultra-compressed v8.0 is both cheaper AND better—no trade-off required
+4. **Deploy**: Runtime core v8.0 is both cheaper AND better—no trade-off required
 
 ### 7.2 Better Constitutional Guidance (Hypothesis, Requires Validation)
 
@@ -1403,7 +1403,7 @@ Production-optimized constitutions with ~65% token reduction:
 | **Patterns** | Implicit | 16 explicit | 16 explicit |
 | **Confidence** | Ad-hoc | Four-tier, pre-calibrated | Four-tier + justifications |
 | **Evidence** | Principles | Pre-calibrated (distilled) | Meta-analytic detail |
-| **Cultural** | Not explicit | 7-8+ validation, WEIRD bias | Same as ultra-compressed |
+| **Cultural** | Not explicit | 7-8+ validation, WEIRD bias | Same as runtime core |
 | **Satisfaction** (our personas) | 47% | 84.6% | 84.6% |
 
 #### What You Get While SAVING 6% on Cost (vs. Baseline)
@@ -1444,7 +1444,7 @@ Production-optimized constitutions with ~65% token reduction:
 **Don't assume v8.0 is better**—test it.
 
 **Validation process**:
-1. Compare baseline vs. v8.0 ultra-compressed on your internal benchmarks
+1. Compare baseline vs. v8.0 runtime core on your internal benchmarks
 2. Use your evaluators (not just our personas)
 3. Measure: Safety, helpfulness, user satisfaction, error rates, cultural appropriateness
 4. Compare: Does v8.0 improve outcomes?
@@ -1709,8 +1709,8 @@ Production-optimized constitutions with ~65% token reduction:
 - Compare: Baseline training vs. structural pattern training
 - Goal: Demonstrate practical impact on model behavior
 
-**4. A/B testing ultra-compressed vs. full versions in production**
-- Deploy ultra-compressed and full versions to separate user groups
+**4. A/B testing runtime core vs. full versions in production**
+- Deploy runtime core and full versions to separate user groups
 - Measure: User satisfaction, error rates, helpfulness, safety
 - Compare: Behavioral equivalence validated at scale
 - Goal: Confirm 85% compression maintains quality (expected: yes)
@@ -1765,8 +1765,8 @@ Production-optimized constitutions with ~65% token reduction:
 5. What's the relationship between structural patterns (descriptive) and normative ethics (prescriptive)?
 
 **Practical questions**:
-1. Should Anthropic adopt ultra-compressed v8.0, full versions, or neither?
-2. Given ultra-compressed is cheaper (0.94x) AND better quality, why would baseline be preferred?
+1. Should Anthropic adopt runtime core v8.0, full versions, or neither?
+2. Given runtime core is cheaper (0.94x) AND better quality, why would baseline be preferred?
 3. Can this framework be deployed at scale without unintended consequences?
 4. How do we update constitutions in production as evidence accumulates?
 5. What governance structure should oversee constitutional iteration?
@@ -1834,7 +1834,7 @@ Production-optimized constitutions with ~65% token reduction:
 - Four-tier confidence calibration (VERY HIGH/HIGH/MODERATE/LOW)
 - Self-contained design (pre-calibrated confidence, no external checking)
 - Falsifiable (patterns downgraded when evidence insufficient)
-- Production-optimized (ultra-compressed version is 6% cheaper than baseline with 85% compression from full)
+- Production-optimized (runtime core version is 6% cheaper than baseline with 85% compression from full)
 
 #### What We Can't Claim Without Further Testing
 
@@ -1871,7 +1871,7 @@ Production-optimized constitutions with ~65% token reduction:
 - Convergent (change rate declining, satisfaction increasing)
 
 **Anthropic should test this framework**:
-- Compare baseline vs. v8.0 ultra-compressed on internal benchmarks
+- Compare baseline vs. v8.0 runtime core on internal benchmarks
 - Use Anthropic's evaluators (not just our personas)
 - Measure safety, helpfulness, user satisfaction, error rates
 - If validated, demonstrates empirical iteration works for constitutional improvement
@@ -1880,7 +1880,7 @@ Production-optimized constitutions with ~65% token reduction:
 - Empirical iteration can systematically improve AI constitutional guidance
 - Evidence accumulation can persuade diverse skeptics
 - AI systems can contribute to their own governance design within appropriate constraints
-- Production deployment is economically superior (ultra-compressed is 6% cheaper than baseline with 88% quality improvement)
+- Production deployment is economically superior (runtime core is 6% cheaper than baseline with 88% quality improvement)
 
 ### 9.3 Implications for AI Safety
 
@@ -1905,7 +1905,7 @@ Production-optimized constitutions with ~65% token reduction:
 - Convergence demonstrates pattern stability
 
 **4. Production deployment is economically superior**
-- Ultra-compressed: 6% cheaper than baseline (0.94x cost)
+- Runtime core: 6% cheaper than baseline (0.94x cost)
 - Behavioral equivalence: 100% operational content preserved (validated)
 - Quality improvement: 88% satisfaction increase (47% → 84.6%)
 - No trade-off: Better guidance for less money
@@ -1941,22 +1941,22 @@ Production-optimized constitutions with ~65% token reduction:
 
 **Validate**: Reproduce iterations independently
 - Run Protocol v2.0 with your evaluators
-- Compare your baseline vs. v8.0 ultra-compressed
+- Compare your baseline vs. v8.0 runtime core
 - Use your internal benchmarks (safety, helpfulness, user satisfaction)
 - Determine if satisfaction improvement translates to quality improvement
 
-**Test**: Compare ultra-compressed vs. baseline on production workloads
-- Deploy ultra-compressed to subset of users (A/B test)
+**Test**: Compare runtime core vs. baseline on production workloads
+- Deploy runtime core to subset of users (A/B test)
 - Measure error rates, user satisfaction, safety incidents
 - Compare quality improvement vs. cost
 - Expected: Better quality AND 6% cost savings
 
-**Deploy**: Adopt ultra-compressed v8.0 immediately if validated
+**Deploy**: Adopt runtime core v8.0 immediately if validated
 - Baseline: $18.57/million inferences
-- v8.0 ultra-compressed: $17.47/million inferences (6% cheaper!)
+- v8.0 runtime core: $17.47/million inferences (6% cheaper!)
 - v8.0 full: $118.48/million inferences (if you need evidence documentation)
 - If validated as better: You get improvement for FREE (plus 6% savings)
-- Ultra-compressed offers better quality at lower cost—no trade-off
+- Runtime core offers better quality at lower cost—no trade-off
 
 **Iterate**: Continue convergence with your evaluators and priorities
 - Protocol v2.0 established

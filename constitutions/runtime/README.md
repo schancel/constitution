@@ -4,15 +4,15 @@
 
 **Key Insight**: Full constitutions contain extensive evidence documentation, examples, organizational metadata, and philosophical justification valuable for study and validation - but operationally unnecessary once confidence is calibrated.
 
-**Runtime cores**: Preserve 100% of operational guidance while removing ~85% of non-operational content through ultra-compression.
+**Runtime cores**: Preserve 100% of operational guidance while removing ~85% of non-operational content.
 
-**Standard approach**: Compress directly from full version → ultra-compressed runtime core in one step (no intermediate versions needed).
+**Standard approach**: Create runtime core directly from full version in one step (no intermediate versions needed).
 
 ---
 
 ## What Are Runtime Cores?
 
-**Runtime cores** are ultra-compressed versions of full constitutions that:
+**Runtime cores** are production-optimized versions of full constitutions that:
 - **Maintain complete operational capability** (100% operational content preserved)
 - **Remove ALL non-operational content** (evidence details, examples, organizational headers, meta-annotations, explanations)
 - **Preserve all critical guidance** (patterns, confidence, mechanisms, protocols)
@@ -20,13 +20,13 @@
 
 **Analogy**: Like a compiled program vs. source code with comments and documentation. Same functionality, maximum efficiency.
 
-**Result**: Ultra-compressed v8.0 is **6% cheaper than baseline** (5,822 vs 6,191 tokens) while providing **88% quality improvement** (47% → 85% satisfaction).
+**Result**: v8.0 runtime core is **6% cheaper than baseline** (5,822 vs 6,191 tokens) while providing **88% quality improvement** (47% → 85% satisfaction).
 
 ---
 
 ## Available Runtime Cores
 
-### v8.0 Ultra-Compressed Runtime Core (RECOMMENDED - STANDARD)
+### v8.0 Runtime Core (RECOMMENDED - STANDARD)
 
 **File**: `v8.0_ultra_compressed.md`
 **Source**: v8.0 Full Constitution (48,846 tokens)
@@ -35,7 +35,7 @@
 
 **Cost comparison**:
 - Baseline: 6,191 tokens ($18.57/million inferences)
-- Ultra-compressed v8.0: 5,822 tokens ($17.47/million inferences)
+- v8.0 runtime core: 5,822 tokens ($17.47/million inferences)
 - **Savings**: 6% cost reduction + 88% quality improvement
 
 **Validation**:
@@ -209,27 +209,24 @@ Each pattern includes:
 
 ### Token Savings Per Inference
 
-| Version | Full | Runtime | Ultra-Compressed | Savings (Runtime) | Savings (Ultra) |
-|---------|------|---------|------------------|-------------------|-----------------|
-| **v8.0** | 48,846 | 12,561 | **~5,822** | **36,285 (74.3%)** | **~43,024 (88.1%)** |
-| **v7.0** | 36,021 | 14,600 | N/A | **21,421 (59.5%)** | N/A |
+| Version | Full | Runtime Core | Savings |
+|---------|------|--------------|---------|
+| **v8.0** | 48,846 | **5,822** | **43,024 (88%)** |
+| **v7.0** | 36,021 | 14,600 | **21,421 (59%)** |
 
-**Note**: Ultra-compressed v8.0 provides additional 16.7% savings over pure runtime core.
+**Note**: v7.0 is historical (pre-dated single-step methodology). v8.0 runtime core is the current standard.
 
 ### Cost Savings at Scale (v8.0, Sonnet 4.5 at $3/1M tokens)
 
-| Scale | Runtime Savings | Ultra-Compressed Savings |
-|-------|----------------|-------------------------|
-| **10K inferences/month** | $13 | $15 |
-| **1M inferences/month** | $1,306 | $1,549 |
-| **10M inferences/month** | $13,062 | $15,491 |
-| **100M inferences/month** | $130,628 | $154,886 |
-| **1B inferences/month** | $1,306,260 | $1,548,864 |
+| Scale | Annual Savings (v8.0 vs Full) |
+|-------|-------------------------------|
+| **10K inferences/month** | $15 |
+| **1M inferences/month** | $1,549 |
+| **10M inferences/month** | $15,491 |
+| **100M inferences/month** | $154,886 |
+| **1B inferences/month** | $1,548,864 |
 
-**At Anthropic scale** (100M+ monthly inferences):
-- **Runtime cores**: $130K-$6.5M annual savings
-- **Ultra-compressed**: $155K-$7.7M annual savings
-- **Additional savings from ultra-compression**: $25K-$1.2M annually
+**At Anthropic scale** (100M+ monthly inferences): **$155K-$7.7M annual savings** vs. full version
 
 **See**: `analysis/runtime_core_cost_analysis.md` for detailed cost models.
 
@@ -257,9 +254,9 @@ Each pattern includes:
 
 ---
 
-## How Runtime Cores Are Created (Ultra-Compression)
+## How Runtime Cores Are Created
 
-### Single-Step Ultra-Compression Formula
+### Single-Step Process
 
 **Process**: Compress directly from full version → ultra-compressed runtime core in one step.
 
@@ -301,9 +298,9 @@ Each pattern includes:
 
 ### Replication
 
-To create ultra-compressed runtime cores for future iterations:
+To create runtime cores for future iterations:
 1. Complete full constitution iteration (with evidence, examples, justifications)
-2. Apply single-step ultra-compression formula (remove all non-operational content)
+2. Remove all non-operational content in single step
 3. Validate section-by-section (especially safety-critical sections)
 4. Test behaviorally (10+ representative scenarios)
 5. Document token savings and cost comparison vs baseline
@@ -323,11 +320,12 @@ constitutions/
 │   └── v8.0.md        # Full v8.0 (48,846 tokens)
 └── runtime/           # Production-optimized versions
     ├── README.md                      # This file
-    ├── v7.0_runtime_core.md           # Runtime v7.0 (14,600 tokens)
-    ├── v8.0_runtime_core.md           # Runtime v8.0 (12,561 tokens)
-    ├── v8.0_pure_runtime.md           # Pure v8.0 (no metadata, 6,987 tokens)
-    ├── v8.0_ultra_compressed.md       # Ultra v8.0 (5,822 tokens)
-    └── ultra_compression_validation.md # Validation report
+    ├── v7.0_runtime_core.md           # v7.0 runtime core (14,600 tokens, historical)
+    ├── v8.0_runtime_core.md           # v8.0 runtime core (5,822 tokens) - CURRENT STANDARD
+    └── historical/                    # Intermediate versions from discovery process
+        ├── v8.0_runtime_core_v1.md    # First attempt (12,561 tokens)
+        ├── v8.0_pure_runtime.md       # Second attempt (6,987 tokens)
+        └── validation.md              # Validation reports
 ```
 
 ---

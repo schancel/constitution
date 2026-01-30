@@ -78,7 +78,7 @@ Can AI systems empirically discover better constitutional guidance than human-de
 **What we didn't test**: Whether constraints would emerge if absent (requires unconstitutional base model - future work for Anthropic)
 
 ### Production Optimization
-**Ultra-compressed runtime cores**:
+**Runtime cores**:
 - v8.0: 39,493 tokens → 5,822 tokens (85% reduction from full, 6% cheaper than baseline!)
 - Baseline: 6,191 tokens
 - Behavioral validation: 100% operational content preserved, safety-critical sections 100% identical
@@ -237,7 +237,7 @@ Table showing version comparisons (mean/max difference)
 - Patterns downgraded when evidence insufficient
 - Framework responds to evidence
 
-**7.5 Practical Validation: Ultra-Compression**:
+**7.5 Practical Validation: Runtime Cores**:
 - 85% token reduction with 100% operational content preserved
 - 6% cheaper than baseline while 88% better quality
 - Demonstrates framework maturity and economic superiority
@@ -246,7 +246,7 @@ Table showing version comparisons (mean/max difference)
 
 **8.1 For Anthropic: Economic Superiority**:
 - Baseline: 6,191 tokens, 47% satisfaction
-- v8.0 ultra-compressed: 5,822 tokens (6% cheaper!), 85% satisfaction
+- v8.0 runtime core: 5,822 tokens (6% cheaper!), 85% satisfaction
 - v8.0 full: 39,493 tokens (6.4x cost), 85% satisfaction (same)
 - **Key finding**: Ultra-compressed is cheaper AND dramatically better (no trade-off)
 - Value: Better guidance, cost savings, risk reduction, cultural safeguards

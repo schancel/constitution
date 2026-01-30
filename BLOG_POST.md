@@ -296,7 +296,7 @@ Here's the stunning result: after ultra-compression, **v8.0 is actually 6% CHEAP
 - Confidence: Ad-hoc
 - Satisfaction: 47%
 
-**Option 2: Ultra-Compressed v8.0** (our recommendation)
+**Option 2: Runtime Core v8.0** (our recommendation)
 - Cost: $17,466/year **(6% cheaper!)**
 - Patterns: 16 explicit with mechanisms
 - Confidence: Four-tier, pre-calibrated
@@ -304,8 +304,8 @@ Here's the stunning result: after ultra-compression, **v8.0 is actually 6% CHEAP
 
 **Option 3: Full v8.0** (if you need evidence documentation)
 - Cost: $118,479/year (6.4x increase)
-- Patterns: Same as ultra-compressed + detailed evidence justifications
-- Confidence: Same as ultra-compressed
+- Patterns: Same as runtime core + detailed evidence justifications
+- Confidence: Same as runtime core
 - Satisfaction: 85% (same—evidence details don't affect application)
 
 ### What You Get While SAVING Money
@@ -343,7 +343,7 @@ Here's the stunning result: after ultra-compression, **v8.0 is actually 6% CHEAP
 ### But Requires Validation
 
 We're not claiming this is definitively "better"—only that it achieved 85% satisfaction in our evaluation. Anthropic should:
-1. Test baseline vs. v8.0 ultra-compressed on their benchmarks
+1. Test baseline vs. v8.0 runtime core on their benchmarks
 2. Measure safety, helpfulness, user satisfaction, error rates
 3. Validate that improvement is real (extremely likely given our results)
 
@@ -352,10 +352,10 @@ We're not claiming this is definitively "better"—only that it achieved 85% sat
 
 ---
 
-## The Technical Innovation: Ultra-Compression
+## The Technical Innovation: Runtime Cores
 
 **Problem**: Full constitutions are comprehensive but expensive (40K tokens).
-**Solution**: "Ultra-compression"—production-optimized versions with 85% size reduction.
+**Solution**: "Runtime cores"—production-optimized versions that strip non-operational content.
 
 **How it works**:
 - **Remove**: Evidence details, organizational headers, meta-annotations, explanations (explanatory content)
@@ -364,7 +364,7 @@ We're not claiming this is definitively "better"—only that it achieved 85% sat
 
 **Result**: Cheaper than baseline (5,822 vs 6,191 tokens) while providing dramatically better guidance
 
-**v8.0 Ultra-Compressed**:
+**v8.0 Runtime Core**:
 - Size: 39,493 tokens → 5,822 tokens (85% reduction from full, 6% cheaper than baseline!)
 - Behavioral testing: **100% operational content preserved** (section-by-section validation)
 - Cost vs baseline: $17.47 vs. $18.57/million inferences (6% savings)
@@ -464,7 +464,7 @@ Include changes if Weight > 0.3
 **3. Framework converged**
 - 16 structural patterns with mechanisms, evidence, confidence
 - Falsifiable (patterns downgraded when evidence insufficient)
-- Production-ready (ultra-compressed is cheaper than baseline with 85% compression)
+- Production-ready (runtime core is cheaper than baseline with 85% compression)
 
 **4. Reproducible**
 - Complete protocol documented
@@ -568,13 +568,13 @@ Include changes if Weight > 0.3
 
 ### For Anthropic: The Validation Path
 
-**1. Test baseline vs. v8.0 ultra-compressed**
+**1. Test baseline vs. v8.0 runtime core**
 - Run both on your internal benchmarks
 - Measure: Safety, helpfulness, user satisfaction, error rates
 - Use your evaluators (not just our personas)
 
 **2. A/B test in production**
-- Deploy ultra-compressed to subset of users
+- Deploy runtime core to subset of users
 - Compare: Error rates, user satisfaction, safety incidents
 - Expected: Better quality AND 6% cost savings
 

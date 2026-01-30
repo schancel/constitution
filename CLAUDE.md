@@ -148,10 +148,10 @@ Extract compressed parameters for version tracking:
 
 #### 2. Runtime Core Creation (Production Tool)
 
-Create production-optimized version for operational deployment through **ultra-compression**:
+Create production-optimized version for operational deployment by removing non-operational content:
 
 **Process**:
-1. **Create runtime core**: `constitutions/runtime/vX.0_runtime_core.md` (single step, ultra-compressed)
+1. **Create runtime core**: `constitutions/runtime/vX.0_runtime_core.md` (single step)
 2. **Remove ALL non-operational content**: Evidence details, examples, metadata, organizational headers, explanations
 3. **Preserve operational content**: All patterns, mechanisms, confidence, protocols (100%)
 4. **Validate behaviorally**: Test 10 representative scenarios (expect 0.0 difference)
@@ -190,7 +190,7 @@ Create production-optimized version for operational deployment through **ultra-c
 
 **Documentation**: `constitutions/runtime/README.md` and validation report in `constitutions/runtime/`
 
-**Results** (v8.0 ultra-compressed):
+**Results** (v8.0 runtime core):
 - Token reduction: 85% from full (39,493 → 5,822 tokens)
 - **Cheaper than baseline**: 6% cost reduction (6,191 → 5,822 tokens)
 - Section-by-section validation: 100% operational content preserved
