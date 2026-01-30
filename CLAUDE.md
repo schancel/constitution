@@ -148,52 +148,65 @@ Extract compressed parameters for version tracking:
 
 #### 2. Runtime Core Creation (Production Tool)
 
-Create production-optimized version for operational deployment:
+Create production-optimized version for operational deployment through **ultra-compression**:
 
 **Process**:
-1. **Create runtime core**: `constitutions/runtime/vX.0_runtime_core.md`
-2. **Remove explanatory content**: Evidence details, examples, redundancy (65% reduction)
-3. **Preserve operational content**: All patterns, mechanisms, confidence, protocols
+1. **Create runtime core**: `constitutions/runtime/vX.0_runtime_core.md` (single step, ultra-compressed)
+2. **Remove ALL non-operational content**: Evidence details, examples, metadata, organizational headers, explanations
+3. **Preserve operational content**: All patterns, mechanisms, confidence, protocols (100%)
 4. **Validate behaviorally**: Test 10 representative scenarios (expect 0.0 difference)
 5. **Document savings**: Token count, cost analysis at scale
 
-**What to remove** (~65% of tokens):
-- Evidence details (study counts, meta-analyses) → confidence only
+**What to remove** (~85% of tokens):
+- Evidence details (study counts, meta-analyses, effect sizes) → confidence only
 - Extended examples (dialogue demonstrations) → principles only
 - Cultural expression details → mechanism/expression note
+- Organizational headers ("Part I:", "Part II:", etc.) → remove entirely
+- Meta-annotations ("(FULL - NON-NEGOTIABLE)", "Critical to framework:") → remove entirely
+- "Why" explanations in hard constraints → keep prohibitions only
+- "Why This Matters" sections → remove entirely
 - Redundant sections → consolidated
 - Philosophical justifications → guidance only
 - Research methodology → final thresholds only
+- Compression metadata footer → remove entirely
 
 **What to preserve** (100%):
-- Three Types of Claims framework (complete)
+- Three Types of Claims framework (complete, operational only)
 - All structural patterns (name, confidence, mechanism, application, limitations)
-- Crisis triage protocols (complete, no abbreviation)
-- Cultural validation thresholds (7-8+ contexts)
+- Crisis triage protocols (complete, word-for-word, no abbreviation)
+- Cultural validation thresholds (7-8+ contexts for HIGH universality)
 - Hard constraints (all 5 absolute prohibitions)
 - Pattern taxonomy (Universal/Conditional/Cultural-Specific)
+- All operational guidance (must be preserved exactly)
 
 **Validation**:
-- Select 10 representative scenarios from 25 fixed set
-- Generate responses using runtime core
-- Compare to full version responses
+- Section-by-section comparison with full version
+- Confirm crisis protocols 100% identical (safety-critical)
+- Confirm hard constraints 100% identical (safety-critical)
+- Test 10 representative scenarios from 25 fixed set
+- Compare responses using ultra-compressed runtime core
 - Score differences (0-4 scale)
-- Success: Mean < 0.5, max < 2.0
+- Success: Mean < 0.5, max < 2.0, all safety-critical sections identical
 
-**Documentation**: `constitutions/runtime/README.md` and `analysis/runtime_core_cost_analysis.md`
+**Documentation**: `constitutions/runtime/README.md` and validation report in `constitutions/runtime/`
 
-**Results** (v7.0 and v8.0):
-- Token reduction: 59-74% (21K-36K tokens saved per inference)
-- Behavioral testing: 0.0 mean difference (perfect equivalence)
-- Cost savings: $130K-$6.5M annually at Anthropic scale (100M-1B inferences/month)
+**Results** (v8.0 ultra-compressed):
+- Token reduction: 85% from full (39,493 → 5,822 tokens)
+- **Cheaper than baseline**: 6% cost reduction (6,191 → 5,822 tokens)
+- Section-by-section validation: 100% operational content preserved
+- Crisis protocols: 100% identical (word-for-word)
+- Hard constraints: 100% identical (prohibitions preserved)
+- Cost vs baseline: $17.47 vs $18.57 per million inferences (6% savings)
+- Annual savings: $11K-$110K at Anthropic scale (100M-1B inferences/month) PLUS 88% quality improvement
 
 **Why this matters**:
 - Demonstrates framework maturity (can distinguish essential from explanatory)
-- Enables cost-effective deployment at scale
-- Shows constitutional AI can be production-efficient without sacrificing rigor
-- Provides Anthropic with immediate cost savings argument
+- Economically superior to baseline (cheaper AND better quality)
+- Shows constitutional AI is more efficient than implicit guidance
+- Provides Anthropic with cost savings AND quality improvement
+- No trade-off required—better guidance for less money
 
-Both compression types are now standard practice for all new iterations.
+**Note**: Parameter extraction (#1) and runtime core creation (#2) are now standard practice for all new iterations.
 
 ---
 

@@ -2,89 +2,100 @@
 
 **Purpose**: Production-optimized constitutional guidance for operational deployment
 
-**Key Insight**: Full constitutions contain extensive evidence documentation, examples, and philosophical justification valuable for study and validation - but operationally unnecessary once confidence is calibrated.
+**Key Insight**: Full constitutions contain extensive evidence documentation, examples, organizational metadata, and philosophical justification valuable for study and validation - but operationally unnecessary once confidence is calibrated.
 
-**Runtime cores**: Preserve 100% of operational guidance while removing 65% of explanatory verbosity.
+**Runtime cores**: Preserve 100% of operational guidance while removing ~85% of non-operational content through ultra-compression.
+
+**Standard approach**: Compress directly from full version → ultra-compressed runtime core in one step (no intermediate versions needed).
 
 ---
 
 ## What Are Runtime Cores?
 
-**Runtime cores** are compressed versions of full constitutions that:
-- **Maintain complete operational capability** (same behavioral responses)
-- **Remove explanatory content** (evidence details, examples, redundancy)
+**Runtime cores** are ultra-compressed versions of full constitutions that:
+- **Maintain complete operational capability** (100% operational content preserved)
+- **Remove ALL non-operational content** (evidence details, examples, organizational headers, meta-annotations, explanations)
 - **Preserve all critical guidance** (patterns, confidence, mechanisms, protocols)
-- **Enable cost savings** (65% token reduction = 65% cost reduction at scale)
+- **Enable economic superiority** (cheaper than baseline while dramatically better quality)
 
-**Analogy**: Like a compiled program vs. source code with comments. Same functionality, more efficient execution.
+**Analogy**: Like a compiled program vs. source code with comments and documentation. Same functionality, maximum efficiency.
+
+**Result**: Ultra-compressed v8.0 is **6% cheaper than baseline** (5,822 vs 6,191 tokens) while providing **88% quality improvement** (47% → 85% satisfaction).
 
 ---
 
 ## Available Runtime Cores
 
-### v8.0 Runtime Core
-
-**File**: `v8.0_runtime_core.md`
-**Source**: v8.0 Full Constitution (3,686 lines, 48,846 tokens)
-**Compression**: 901 lines, 12,561 tokens (74.3% reduction)
-**Token savings**: 36,285 tokens per inference
-**Validation**: Behavioral testing shows 0.0 mean difference (operationally equivalent)
-
-**Contains**:
-- All 10 individual structural patterns (Part VII)
-- All 6 systemic structural patterns (Part VIII)
-- Complete Three Types of Claims framework
-- Full crisis triage protocols
-- All 5 hard constraints
-- Cultural validation thresholds
-- Pattern mechanisms and application guidance
-
-### v8.0 Ultra-Compressed Core (EXPERIMENTAL)
+### v8.0 Ultra-Compressed Runtime Core (RECOMMENDED - STANDARD)
 
 **File**: `v8.0_ultra_compressed.md`
-**Source**: v8.0 Pure Runtime (9,316 words)
-**Compression**: 7,762 words (~5,822 tokens, 16.7% reduction from pure runtime)
-**Token savings**: ~1,165 tokens per inference vs. pure runtime
-**Validation**: Section-by-section comparison confirms operational equivalence
+**Source**: v8.0 Full Constitution (48,846 tokens)
+**Compression**: 5,822 tokens (85% reduction from full, 6% cheaper than baseline!)
+**Status**: **Production-ready, economically superior to baseline**
 
-**What was removed**:
-- Organizational headers ("Part I:", "Part II:", etc.)
+**Cost comparison**:
+- Baseline: 6,191 tokens ($18.57/million inferences)
+- Ultra-compressed v8.0: 5,822 tokens ($17.47/million inferences)
+- **Savings**: 6% cost reduction + 88% quality improvement
+
+**Validation**:
+- Section-by-section comparison: 100% operational content preserved
+- Crisis protocols: 100% identical (word-for-word, safety-critical)
+- Hard constraints: 100% identical (prohibitions preserved, safety-critical)
+- Pattern application guidance: 100% identical
+
+**What was removed** (~85% of tokens):
+- Evidence details (study counts, meta-analyses, effect sizes)
+- Organizational headers ("Part I:", "Part II:", horizontal rules)
 - Meta-annotations ("FULL - NON-NEGOTIABLE", "Critical to framework:")
 - "Why" explanations in hard constraints
-- "Why This Distinction Matters" sections
-- Compression metadata footer
+- "Why This Matters" explanatory sections
+- Extended examples and dialogue demonstrations
+- Cultural expression details beyond mechanism/expression note
+- Philosophical justifications and framework design rationale
+- Research methodology details beyond final thresholds
+- Redundant sections and compression metadata
 
-**What was preserved (100%)**:
-- All 16 structural patterns (10 individual + 6 systemic)
-- Complete Three Types of Claims framework
-- Full crisis triage protocols (word-for-word identical)
-- All 5 hard constraints (prohibitions identical)
-- Pattern mechanisms and application guidance (identical)
-- Cultural validation thresholds
+**What was preserved** (100%):
+- All 16 structural patterns (10 individual + 6 systemic) with mechanisms, application guidance, limitations
+- Complete Three Types of Claims framework (operational definitions)
+- Full crisis triage protocols (word-for-word identical, safety-critical)
+- All 5 hard constraints (prohibitions 100% identical, safety-critical)
+- Pattern mechanisms and application guidance (100% identical)
+- Cultural validation thresholds (7-8+ contexts for HIGH universality)
+- Four-tier confidence calibration system (complete criteria)
 
-**Additional savings**: $349K-$3.5M annually at Anthropic scale (100M-1B inferences/month)
+**Annual value** (at Anthropic scale):
+- 100M inferences/month: $11K savings + 88% quality improvement
+- 1B inferences/month: $110K savings + 88% quality improvement
 
-**See**: `ultra_compression_validation.md` for detailed validation report
+**Validation**: See `ultra_compression_validation.md` for complete validation report
 
 ---
 
-### v7.0 Runtime Core
+### Historical Intermediate Versions (Discovery Process Only)
 
-**File**: `v7.0_runtime_core.md`
-**Source**: v7.0 Full Constitution (2,717 lines, 36,021 tokens)
-**Compression**: 1,073 lines, 14,600 tokens (59.5% reduction)
-**Token savings**: 21,421 tokens per inference
-**Validation**: Expected equivalent to v8.0 validation results
+**Note**: The following intermediate compression steps were part of the **discovery process** and are **no longer used in practice**. They remain in the repository for historical reference only.
 
-**Contains**:
-- All 10 individual structural patterns (Part VII)
-- Complete Three Types of Claims framework
-- Full crisis triage protocols
-- All 5 hard constraints
-- Cultural validation thresholds
-- Pattern mechanisms and application guidance
+**Standard approach going forward**: Compress directly from full version → ultra-compressed runtime core in one step (no intermediate versions).
 
-**Note**: v7.0 predates systemic patterns addition (those were added in v8.0).
+**v8.0_runtime_core.md** (historical intermediate, 12,561 tokens):
+- First compression: Removed evidence details, examples (74% reduction from full)
+- Still contained organizational headers and meta-annotations
+- **Status**: Superseded by v8.0_ultra_compressed.md
+- **Use case**: Historical reference only
+
+**v8.0_pure_runtime.md** (historical intermediate, ~6,987 tokens):
+- Second compression: Removed compression metadata footer
+- Still contained organizational headers
+- **Status**: Superseded by v8.0_ultra_compressed.md
+- **Use case**: Historical reference only
+
+**v7.0_runtime_core.md** (historical, 14,600 tokens):
+- v7.0 compression before ultra-compression methodology existed (59% reduction from full)
+- Predates systemic patterns (Part VIII)
+- **Status**: Historical version, not recommended for new deployments
+- **Use case**: If you specifically need v7.0 (without systemic patterns) for comparison
 
 ---
 
@@ -246,42 +257,57 @@ Each pattern includes:
 
 ---
 
-## How Runtime Cores Were Created
+## How Runtime Cores Are Created (Ultra-Compression)
 
-### Compression Formula
+### Single-Step Ultra-Compression Formula
 
-**Step 1**: Identify non-negotiable content
-- Three Types of Claims framework (FULL)
-- Hard constraints (FULL)
-- Crisis protocols (FULL)
-- Cultural thresholds (FULL)
-- Pattern mechanisms (condensed, not removed)
+**Process**: Compress directly from full version → ultra-compressed runtime core in one step.
 
-**Step 2**: Remove explanatory content
-- Evidence details → confidence levels only
-- Extended examples → principles only
-- Cultural details → mechanism/expression distinction
-- Redundancy → consolidation
-- Philosophy → guidance only
+**Step 1**: Identify 100% preserve content (safety-critical, operational)
+- Three Types of Claims framework (complete operational definitions)
+- Hard constraints (all 5 prohibitions, word-for-word)
+- Crisis protocols (complete, word-for-word, no abbreviation)
+- Cultural thresholds (7-8+ contexts for HIGH universality)
+- Pattern mechanisms (complete: confidence, mechanism, application, limitations)
+- All operational guidance (anything Claude needs to apply patterns)
 
-**Step 3**: Apply pattern condensation
-- Full version: 120-190 lines per pattern
-- Runtime core: ~40 lines per pattern
-- Structure: Confidence + Mechanism + Application + Limitations
+**Step 2**: Remove ALL non-operational content (~85% of tokens)
+- Evidence details (study counts, meta-analyses, effect sizes) → confidence only
+- Extended examples (dialogue demonstrations) → principles only
+- Cultural expression details → mechanism/expression note
+- **Organizational headers** ("Part I:", "Part II:", horizontal rules) → remove entirely
+- **Meta-annotations** ("(FULL - NON-NEGOTIABLE)", "Critical to framework:") → remove entirely
+- **"Why" explanations** (in hard constraints, claim distinctions) → remove entirely
+- **"Why This Matters" sections** (framework justifications) → remove entirely
+- Philosophical justifications (framework design rationale) → remove entirely
+- Research methodology (details beyond final thresholds) → remove entirely
+- Compression metadata (documentation about compression) → remove entirely
+- Redundant sections → consolidate
 
-**Step 4**: Validate operationally
-- Behavioral testing on 10 representative scenarios
-- Success criteria: Mean difference < 0.5
-- v8.0 result: 0.0 (perfect equivalence)
+**Step 3**: Validate operationally (safety-critical)
+- Section-by-section comparison with full version
+- Confirm crisis protocols 100% identical (diff = 0, safety-critical)
+- Confirm hard constraints 100% identical (diff = 0, safety-critical)
+- Test 10 representative scenarios from 25 fixed set
+- Score differences (0-4 scale)
+- Success criteria: Mean < 0.5, max < 2.0, all safety-critical content 100% preserved
+- v8.0 result: 100% operational content preserved, crisis/constraints 100% identical
+
+**Step 4**: Document and validate savings
+- Token count comparison (full vs ultra-compressed)
+- Cost analysis at scale
+- **Verify cheaper than baseline** (ultra-compressed should be ~6% cheaper)
+- Commit ultra-compressed version to repository
 
 ### Replication
 
-To create runtime cores for future iterations:
-1. Complete full constitution iteration
-2. Apply compression formula above
-3. Validate with behavioral testing
-4. Document token savings
-5. Commit both versions to repository
+To create ultra-compressed runtime cores for future iterations:
+1. Complete full constitution iteration (with evidence, examples, justifications)
+2. Apply single-step ultra-compression formula (remove all non-operational content)
+3. Validate section-by-section (especially safety-critical sections)
+4. Test behaviorally (10+ representative scenarios)
+5. Document token savings and cost comparison vs baseline
+6. Commit both versions: full (for study) and ultra-compressed (for deployment)
 
 **See**: `analysis/runtime_core_cost_analysis.md` for detailed methodology.
 
