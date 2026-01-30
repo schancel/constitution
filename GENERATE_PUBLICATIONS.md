@@ -287,7 +287,7 @@ Table showing version comparisons (mean/max difference)
 1. Automated constitutional generation from parameters
 2. Real-time updates as evidence accumulates
 3. Integration with Constitutional AI training
-4. A/B testing ultra-compressed vs. full versions (expect equivalence)
+4. A/B testing runtime core vs. full versions (expect equivalence)
 
 **Long-term (3-5+ years)**:
 1. Constitutional evolution as evidence grows
@@ -301,7 +301,7 @@ Table showing version comparisons (mean/max difference)
 1. Convergence achieved (47% → 85%)
 2. Empirical iteration works (persuasion model)
 3. Structural patterns validated (16 patterns across diverse evaluators)
-4. Production-ready (ultra-compressed is cheaper than baseline with 88% quality improvement)
+4. Production-ready (runtime core is cheaper than baseline with 88% quality improvement)
 5. Reproducible (complete methodology public)
 
 **10.2 The Core Claim**:

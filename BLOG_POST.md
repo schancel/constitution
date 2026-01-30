@@ -286,7 +286,7 @@ Pattern: Safety violation (suicidal ideation) → acute trauma response → requ
 
 ## The Cost Question: Better AND Cheaper
 
-Here's the stunning result: after ultra-compression, **v8.0 is actually 6% CHEAPER than baseline**. There's no trade-off.
+Here's the stunning result: the runtime core version of v8.0 is actually **6% CHEAPER than baseline**. There's no trade-off.
 
 ### The Three Options
 
