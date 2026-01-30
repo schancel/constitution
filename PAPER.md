@@ -1197,7 +1197,7 @@ Production-optimized constitutions with ~65% token reduction:
 - Runtime v7.0 annual cost: $378K - $3.78M
 - **Annual savings**: $622K - $6.22M
 
-#### v8.0 Ultra-Compressed
+#### v8.0 Runtime Core
 
 **Size**: 48,846 tokens → 5,822 tokens (88% reduction, 43,024 tokens saved)
 
@@ -1221,7 +1221,7 @@ Production-optimized constitutions with ~65% token reduction:
 - **Annual savings vs baseline**: $13K - $130K
 - **Annual savings vs full v8.0**: $1.55M - $15.49M
 
-#### What Ultra-Compression Demonstrates
+#### What Runtime Cores Demonstrate
 
 **1. Framework maturity**:
 - Can distinguish essential (patterns, mechanisms, confidence) from explanatory (evidence details, examples)
@@ -1396,7 +1396,7 @@ Production-optimized constitutions with ~65% token reduction:
 
 #### Comparison of Approaches
 
-| Feature | Baseline | v8.0 Ultra-Compressed | v8.0 Full |
+| Feature | Baseline | v8.0 Runtime Core | v8.0 Full |
 |---------|----------|----------------------|-----------|
 | **Tokens** | 6,191 | **5,822** | 48,846 |
 | **Cost** (relative) | 1x | **0.94x (6% cheaper!)** | 7.9x |
