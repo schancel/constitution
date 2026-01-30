@@ -209,13 +209,13 @@
 
 ### Cost Analysis (Correct Figures)
 
-**Baseline**: 6,191 tokens = $18,573/year (100M inferences/month)
-**v8.0 Runtime**: 12,541 tokens = $37,623/year (2x increase)
-**v8.0 Full**: 39,493 tokens = $118,479/year (6.4x increase)
+**Baseline**: 6,191 tokens = $22,287/year (100M inferences/month)
+**v8.0 Runtime**: 5,822 tokens = $20,964/year (6% cheaper!)
+**v8.0 Full**: 48,846 tokens = $175,847/year (7.9x increase)
 
-**Additional cost** (runtime vs. baseline): +$19,050/year
-**Estimated value**: $250K-$1.95M annually
-**ROI**: 13x-102x
+**Cost savings** (runtime vs. baseline): $1,323/year (6% reduction)
+**Quality improvement**: 88% (47% → 85% satisfaction)
+**Value proposition**: Better quality for LESS money (no trade-off)
 
 ### Framework Summary (16 Patterns)
 

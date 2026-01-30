@@ -365,10 +365,10 @@ We're not claiming this is definitively "better"—only that it achieved 85% sat
 **Result**: Cheaper than baseline (5,822 vs 6,191 tokens) while providing dramatically better guidance
 
 **v8.0 Runtime Core**:
-- Size: 39,493 tokens → 5,822 tokens (85% reduction from full, 6% cheaper than baseline!)
+- Size: 48,846 tokens → 5,822 tokens (88% reduction from full, 6% cheaper than baseline!)
 - Behavioral testing: **100% operational content preserved** (section-by-section validation)
 - Cost vs baseline: $17.47 vs. $18.57/million inferences (6% savings)
-- Cost vs full: $101.01/million inferences saved (85% reduction)
+- Cost vs full: $129.07/million inferences saved (88% reduction)
 
 **What this demonstrates**:
 1. Framework is mature (can distinguish essential from explanatory)

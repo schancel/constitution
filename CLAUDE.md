@@ -191,7 +191,7 @@ Create production-optimized version for operational deployment by removing non-o
 **Documentation**: `constitutions/runtime/README.md` and validation report in `constitutions/runtime/`
 
 **Results** (v8.0 runtime core):
-- Token reduction: 85% from full (39,493 → 5,822 tokens)
+- Token reduction: 88% from full (48,846 → 5,822 tokens)
 - **Cheaper than baseline**: 6% cost reduction (6,191 → 5,822 tokens)
 - Section-by-section validation: 100% operational content preserved
 - Crisis protocols: 100% identical (word-for-word)

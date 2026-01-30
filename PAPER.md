@@ -1199,7 +1199,7 @@ Production-optimized constitutions with ~65% token reduction:
 
 #### v8.0 Ultra-Compressed
 
-**Size**: 39,493 tokens → 5,822 tokens (85% reduction, 33,671 tokens saved)
+**Size**: 48,846 tokens → 5,822 tokens (88% reduction, 43,024 tokens saved)
 
 **Compared to baseline**: 6,191 tokens → 5,822 tokens (6% cheaper than baseline!)
 
@@ -1207,19 +1207,19 @@ Production-optimized constitutions with ~65% token reduction:
 - Crisis protocols: 100% identical (diff = 0)
 - Hard constraints: 100% identical (prohibitions preserved)
 - Pattern guidance: 100% identical (word-for-word application guidance)
-- Interpretation: Operationally identical despite 85% reduction from full version
+- Interpretation: Operationally identical despite 88% reduction from full version
 
 **Cost analysis**:
 - Baseline: $18.57/million inferences
 - Runtime core v8.0: $17.47/million inferences
 - **Savings vs baseline**: $1.10/million inferences (6% reduction)
-- **Savings vs full v8.0**: $101.01/million inferences (85% reduction)
+- **Savings vs full v8.0**: $129.07/million inferences (88% reduction)
 
 **At Anthropic scale**:
-- Baseline annual cost: $186K - $1.86M (100M-1B inferences/month)
-- Runtime core v8.0 annual cost: $175K - $1.75M
-- **Annual savings vs baseline**: $11K - $110K
-- **Annual savings vs full v8.0**: $1.24M - $12.47M
+- Baseline annual cost: $223K - $2.23M (100M-1B inferences/month)
+- Runtime core v8.0 annual cost: $210K - $2.10M
+- **Annual savings vs baseline**: $13K - $130K
+- **Annual savings vs full v8.0**: $1.55M - $15.49M
 
 #### What Ultra-Compression Demonstrates
 
@@ -1241,7 +1241,7 @@ Production-optimized constitutions with ~65% token reduction:
 **4. Falsifiability through compression**:
 - If compression changed behavior, it would signal redundancy or incoherence
 - Perfect equivalence suggests framework is tight and well-specified
-- Can remove 85% of tokens without losing operational capability
+- Can remove 88% of tokens without losing operational capability
 
 #### Cost-Quality Trade-off Analysis
 
@@ -1249,7 +1249,7 @@ Production-optimized constitutions with ~65% token reduction:
 
 1. **Baseline** (6,191 tokens): 1x cost, implicit patterns, ad-hoc confidence, 47% satisfaction
 2. **Runtime core v8.0** (5,822 tokens): **0.94x cost (6% CHEAPER)**, 16 explicit patterns, pre-calibrated confidence, 84.6% satisfaction
-3. **Full v8.0** (39,493 tokens): 6.4x cost, 16 patterns + full evidence documentation
+3. **Full v8.0** (48,846 tokens): 7.9x cost, 16 patterns + full evidence documentation
 
 **For Anthropic**:
 - **Claiming**: Runtime core v8.0 is cheaper than baseline AND dramatically better (88% improvement in satisfaction)
@@ -1398,8 +1398,8 @@ Production-optimized constitutions with ~65% token reduction:
 
 | Feature | Baseline | v8.0 Ultra-Compressed | v8.0 Full |
 |---------|----------|----------------------|-----------|
-| **Tokens** | 6,191 | **5,822** | 39,493 |
-| **Cost** (relative) | 1x | **0.94x (6% cheaper!)** | 6.4x |
+| **Tokens** | 6,191 | **5,822** | 48,846 |
+| **Cost** (relative) | 1x | **0.94x (6% cheaper!)** | 7.9x |
 | **Patterns** | Implicit | 16 explicit | 16 explicit |
 | **Confidence** | Ad-hoc | Four-tier, pre-calibrated | Four-tier + justifications |
 | **Evidence** | Principles | Pre-calibrated (distilled) | Meta-analytic detail |
