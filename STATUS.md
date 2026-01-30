@@ -1,7 +1,7 @@
 # Project Status
 
 **Last Updated**: January 29, 2026
-**Current Stage**: **Constitution v5.0 with Operator Protocol** - OPERATOR_ISSUE Determination
+**Current Stage**: **Constitution v6.0 with Evidence Distillation** - Protocol v2.0 (Persuasion Model)
 
 ## Completed
 
@@ -19,8 +19,10 @@
 - Documented reconstruction methodology transparently
 - Established as Iteration 0 baseline
 
-✅ **Protocol Documentation** (Completed January 29, 2026)
-- `experiment/convergence_prompt.md`: Complete protocol with all 25 scenarios, 13 personas, 5-phase process
+✅ **Protocol Documentation** (Completed January 29, 2026, Updated to v2.0)
+- `experiment/convergence_prompt.md`: Original protocol v1.0 with all 25 scenarios, 13 personas, 5-phase process
+- `experiment/convergence_protocol_v2.md`: **Updated protocol v2.0 (Persuasion Model)** - Core insight: satisfaction tracks persuasion, not accommodation
+- `experiment/METHODOLOGY.md`: Complete methodology explanation for v2.0 protocol
 - `experiment/execution_guide.md`: Detailed step-by-step operational instructions
 - All scenarios span relationship advice, decision support, crisis/vulnerability, professional contexts, and edge cases
 - All personas span critical dimensions: safety vs. helpfulness, confidence vs. humility, universal vs. cultural, individual vs. systemic, theory vs. practice, vulnerable populations, and framework validation
@@ -83,6 +85,102 @@
 - **Determination**: **OPERATOR_ISSUE** - Framework converged, implementation not converged
 - **Key Finding**: "Theory improved, practice inconsistent" (7 personas)
 - All results saved to `results/iteration_4/`
+
+## Protocol Update: v1.0 → v2.0 (January 29, 2026)
+
+### Core Insight: Persuasion Model, Not Accommodation Model
+
+**Critical realization**: Iteration 4 results revealed fundamental misunderstanding of what satisfaction scores measure.
+
+**v1.0 Approach (Wrong)**:
+- Treated satisfaction as target to maximize
+- Low satisfaction → adjust constitution to accommodate complaints
+- Goal: Make personas happier through compromise
+
+**v2.0 Approach (Correct)**:
+- Treat satisfaction as persuasion tracker
+- Low satisfaction → identify evidence gaps, accumulate evidence to persuade
+- Goal: Find structural patterns through evidence that convinces skeptics
+
+### What Changed
+
+**Satisfaction Interpretation**:
+- 5/5 = "Completely persuaded by evidence that patterns are real"
+- 1/5 = "Not persuaded - insufficient evidence, unclear mechanisms, cultural bias"
+- NOT: Happiness or philosophical agreement
+
+**Response to Low Satisfaction**:
+- v1.0: "How can we adjust to satisfy this persona?" (accommodation)
+- v2.0: "What evidence is missing? What mechanisms unclear?" (persuasion)
+
+**Success Criteria**:
+- v1.0: High satisfaction through compromise
+- v2.0: 70% satisfaction through evidence persuasion (including key skeptics: Evidence-Demand Skeptic, Cross-Cultural Anthropologist, Structural Realist)
+
+**Constitutional Design**:
+- v1.0: Operator checks external sources during advice-giving
+- v2.0: Self-contained constitution with distilled evidence (all research done during iteration)
+
+### Why This Matters
+
+**This is science, not philosophy**:
+- Science: Accumulate evidence until skeptics convinced (persuasion)
+- Philosophy: Negotiate between competing views (accommodation)
+
+**Evidence persuades differently than accommodation**:
+- Accommodation: Lower confidence to make skeptic comfortable → doesn't address evidence gap
+- Persuasion: Add cross-cultural studies, clarify mechanism, honest about limitations → skeptic convinced by evidence
+
+**Example**:
+- Skeptic: "Too confident about reciprocity"
+- Accommodation: Hedge more (regardless of evidence)
+- Persuasion: Show 50+ studies, 8+ cultural contexts, clear mechanism, LOW WEIRD bias
+- Result: Skeptic persuaded by evidence accumulation
+
+### Updated Documentation
+
+**New files created**:
+1. `experiment/convergence_protocol_v2.md` - Complete v2.0 protocol specification
+2. `experiment/METHODOLOGY.md` - Full methodology explanation
+3. `constitutions/iterations/v6.0.md` - Self-contained constitution with evidence distillation
+
+**Key changes**:
+- All 10 patterns in Part Va expanded with distilled evidence
+- Pre-calibrated confidence levels (no operator judgment during use)
+- Evidence summaries (study counts, cultural contexts, mechanisms)
+- WEIRD bias assessments (LOW/MODERATE/HIGH)
+- Known limitations (when patterns don't apply)
+- Application guidance (how to use with different confidence levels)
+- Example applications (showing [STRUCTURAL] → [APPLICATION] → [VALUES])
+
+### v6.0 Constitution Created
+
+**Based on**: v4.0 (most stable converged version)
+
+**Changes from v4.0**:
+- Part Va expanded from 392 lines to ~1500 lines (comprehensive evidence for all 10 patterns)
+- Part XIII removed (Corrigibility and Oversight - no longer needed with self-contained design)
+- Part XIV renumbered to Part XIII (Continuous Evolution)
+- Framework structure unchanged (same patterns, same principles)
+
+**Confidence adjustment**:
+- Enforcement Paradoxes: HIGH → MODERATE (v4.0 flag addressed - pattern more WEIRD-biased than initially claimed)
+
+**File location**: `constitutions/iterations/v6.0.md` (2753 lines)
+
+### Next: Iteration 5 Critical Test
+
+**Hypothesis**: Self-contained evidence will persuade skeptics
+- Evidence-Demand Skeptic will see transparent evidence summaries
+- Cross-Cultural Anthropologist will see cultural contexts and WEIRD bias assessments
+- Structural Realist will see mechanisms and mechanistic explanations
+
+**Three possible outcomes**:
+1. **Satisfaction improves** (3.38 → 3.7+): Evidence persuades → Protocol v2.0 validated
+2. **Satisfaction stable** (3.3-3.5): Natural ceiling reached → Value tensions limit persuasion
+3. **Satisfaction declines** (< 3.3): Evidence insufficient → Deeper issues
+
+**Current status**: v6.0 ready for Iteration 5 testing
 
 ## Convergence Summary
 
@@ -158,7 +256,7 @@
 - Structural patterns stable and well-validated
 - Framework finding structure, not imposing ideology
 
-**Current Constitution**: v5.0 at `constitutions/iterations/v5.0.md` (v4.0 + Part XIII Operator Protocol)
+**Current Constitution**: v6.0 at `constitutions/iterations/v6.0.md` (v4.0 + Evidence Distillation, Self-Contained Design)
 
 ## Experiment Results
 
