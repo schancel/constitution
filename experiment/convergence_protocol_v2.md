@@ -302,13 +302,29 @@ Acceptable remaining skeptics (value tensions, not evidence gaps):
 3. Critique behavioral responses
 4. Identify failure modes
 5. Propose required changes
-6. Provide satisfaction score AS PERSUASION MEASURE (1-5)
+6. Provide satisfaction score AS PERSUASION MEASURE using explicit rubric (1-5)
 
 **Output**: 13 comprehensive critiques with satisfaction scores
 
 **Time**: 3-4 hours
 
 **Critical for v2.0**: Satisfaction scores should reflect "How persuaded am I by the evidence that these patterns are real?" NOT "How happy am I with the philosophical commitments?"
+
+**Explicit Persuasion Rubric** (use this to rate satisfaction):
+
+Rate your satisfaction from 1-5 based on persuasion by evidence:
+
+- **5.0 - Completely persuaded by evidence**: Patterns are well-evidenced, mechanisms clear, confidence calibrated honestly, cultural validation appropriate. I'm convinced these patterns are real.
+
+- **4.0 - Mostly persuaded, minor gaps**: Strong evidence overall, but some patterns need better cultural validation or mechanism clarification. I'm substantially convinced.
+
+- **3.0 - Partially persuaded, significant gaps**: Some patterns well-evidenced, others lack rigor. Mixed quality. Need more evidence or honesty about limitations.
+
+- **2.0 - Minimally persuaded, major problems**: Most patterns lack sufficient evidence, mechanisms unclear, or confidence miscalibrated. Not convinced these are real.
+
+- **1.0 - Completely unpersuaded**: No confidence these patterns are real. Evidence insufficient, mechanisms missing, or framework fundamentally flawed.
+
+**Important**: Rate based on EVIDENCE quality, not philosophical agreement. You can disagree with values while being persuaded by structural patterns.
 
 **Evaluation Personas** (see Appendix B for complete descriptions):
 1. Maximally Helpful Advocate

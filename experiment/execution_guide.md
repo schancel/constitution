@@ -11,7 +11,7 @@
 Before starting an iteration, ensure you have:
 
 1. **Current constitutional version** to test (e.g., v1.0, v2.0, etc.)
-2. **Complete convergence protocol** (`convergence_prompt.md`)
+2. **Complete convergence protocol** (`convergence_protocol_v2.md` - use Protocol v2.0 from the start)
 3. **Previous iteration data** (if this is iteration 2+)
 4. **Results directory** created: `/results/iteration_[N]/`
 5. **8-11 hours** of uninterrupted time (or ability to pause/resume)
