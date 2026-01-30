@@ -1573,4 +1573,150 @@ document:
 
 ---
 
+## Part VI: Runtime Core Compression (Production Optimization)
+
+**NEW**: January 29, 2026
+
+### Overview
+
+**Runtime core compression** is a different approach from parameter compression:
+- **Parameter compression**: Extract varying parameters, keep generators (research/comparison tool)
+- **Runtime core compression**: Remove explanatory content, keep operational essentials (production deployment)
+
+### Approach
+
+**Goal**: Reduce token count for operational deployment while maintaining 100% behavioral equivalence
+
+**Method**: Distinguish what's necessary for **operation** vs. what's valuable for **study**
+
+### What Runtime Cores Remove
+
+**1. Evidence Documentation (~30%)**
+- Study counts, meta-analyses, effect sizes
+- Publication bias assessments, sample sizes
+- Landmark study citations
+- **Replace with**: Pre-calibrated confidence levels
+
+**2. Extended Examples (~20%)**
+- Dialogue demonstrations
+- Multiple scenario walkthroughs
+- Detailed application examples
+- **Replace with**: Concise application principles
+
+**3. Cultural Expression Details (~5%)**
+- Specific examples from different contexts
+- Detailed cultural variations
+- **Replace with**: General mechanism/expression note
+
+**4. Redundancy (~5%)**
+- Sections that reiterate other sections
+- Overlapping explanations
+- **Result**: Consolidated structure
+
+**5. Philosophical Justifications (~5%)**
+- "Why this matters" sections
+- Theoretical context
+- Framework design rationale
+- **Rationale**: Operators need guidance, not philosophy
+
+**Total removable**: ~65% of tokens
+
+### What Runtime Cores Preserve
+
+**1. Core Frameworks (100%)**
+- Three Types of Claims (complete)
+- Confidence calibration system (all 4 tiers)
+- Cultural validation thresholds (7-8+ contexts)
+- Hard constraints (all 5 absolute prohibitions)
+
+**2. All Structural Patterns (100%)**
+- All pattern names and confidence levels
+- All pattern mechanisms (WHY they operate)
+- All application guidance (HOW to apply)
+- All limitations (boundary conditions)
+
+**3. Crisis Protocols (100%)**
+- Acute crisis response
+- Trauma-informed principles
+- Disability-aware guidance
+- No abbreviation (high-severity context)
+
+**4. Pattern Taxonomy (100%)**
+- Universal vs. Conditional vs. Cultural-Specific
+- Essential for correct application
+
+### Results
+
+**v8.0 Runtime Core**:
+- Original: 3,686 lines, 48,846 tokens
+- Runtime: 901 lines, 12,561 tokens
+- **Reduction: 74.3% (36,285 tokens saved)**
+
+**v7.0 Runtime Core**:
+- Original: 2,717 lines, 36,021 tokens
+- Runtime: 1,073 lines, 14,600 tokens
+- **Reduction: 59.5% (21,421 tokens saved)**
+
+### Validation
+
+**Behavioral testing**: 10 representative scenarios
+**Result**: Mean difference = 0.0 (operationally equivalent)
+**Validated capabilities**: All 16 patterns operational, crisis protocols complete, confidence calibration preserved
+
+### Cost Savings
+
+**At Anthropic scale (100M inferences/month, Sonnet 4.5)**:
+- v8.0 savings: $10,886/month = **$130,628/year**
+- v7.0 savings: $6,426/month = **$77,118/year**
+
+**At global scale (1B inferences/month)**:
+- v8.0 savings: $108,855/month = **$1,306,260/year**
+
+**See**: `analysis/runtime_core_cost_analysis.md` for detailed cost models
+
+### Use Cases
+
+**Use runtime cores for**:
+- Production inference (API, deployed systems)
+- Operational deployment (cost-sensitive)
+- Behavioral testing (validated equivalent)
+
+**Use full versions for**:
+- Research and study (understanding evidence)
+- Persona critiques (evaluating evidence quality)
+- Weighted synthesis (need evidence to weight)
+- Training and education (learning framework)
+
+### Comparison to Parameter Compression
+
+| Approach | Size | Purpose | Lossiness |
+|----------|------|---------|-----------|
+| **Parameter Compression** | 2-5KB | Research, comparison, change tracking | Non-lossy (reconstruct full) |
+| **Runtime Core** | 12-17KB | Production deployment, cost savings | Lossy for explanation, non-lossy for operation |
+| **Full Version** | 36-48KB | Study, validation, documentation | Complete |
+
+**Complementary approaches**:
+- Parameter compression: Understand what varies between versions
+- Runtime core: Deploy efficiently in production
+- Full version: Study and validate framework
+
+### Implementation
+
+**Files**:
+- `constitutions/runtime/v7.0_runtime_core.md`
+- `constitutions/runtime/v8.0_runtime_core.md`
+- `constitutions/runtime/README.md`
+- `results/runtime_core_validation/behavioral_testing.md`
+
+**Methodology**:
+1. Identify non-negotiable content (preserve fully)
+2. Remove explanatory content (evidence, examples, philosophy)
+3. Condense patterns (~40 lines each vs. 120-190)
+4. Validate behaviorally (10 scenarios, 0-4 scale)
+5. Document compression ratio and cost savings
+
+**Replication**: Can be applied to any future constitutional version following the compression formula in `constitutions/runtime/README.md`
+
+---
+
 **END OF CONSTITUTIONAL COMPRESSION ANALYSIS**

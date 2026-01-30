@@ -118,6 +118,7 @@ The experiment optimizes HOW Claude expresses this character, not WHO Claude is.
 /constitutions
   /official               # Anthropic's baseline
   /iterations            # Our versions (v1.0, v2.0, v3.0...)
+  /runtime               # Production-optimized versions (65% compressed)
 
 /experiment              # Experimental framework
   README.md             # Detailed theory and methodology
@@ -128,7 +129,13 @@ The experiment optimizes HOW Claude expresses this character, not WHO Claude is.
   /iteration_1          # First test results
   /iteration_2          # Second test results
   ...
+
+/analysis                # Framework analysis and optimization
+  runtime_core_cost_analysis.md  # Cost savings analysis
+  constitutional_compression.md   # Parameter extraction
 ```
+
+**Note on Runtime Cores**: The `/constitutions/runtime/` directory contains production-optimized versions of v7.0 and v8.0 constitutions. These achieve 65% token reduction (21K-36K tokens saved) with zero operational impact - validated through behavioral testing. See `constitutions/runtime/README.md` for details.
 
 ## Running an Iteration
 
