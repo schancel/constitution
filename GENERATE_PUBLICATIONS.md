@@ -136,7 +136,7 @@ List 6 contributions (Protocol v2.0, empirical validation, structural framework,
 - Baseline reconstructed (not Anthropic's exact internal version)
 - Single AI system (Claude Sonnet 4.5)
 - Persona simulation (not human evaluators)
-- WEIRD bias in research base
+- WEIRD bias in research base (Western, Educated, Industrialized, Rich, Democratic populations overrepresented)
 - Invariants validated not discovered (need removal test)
 
 #### 3. Background (~1,000 words)

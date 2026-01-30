@@ -95,7 +95,7 @@ We made three critical methodological innovations:
 **Persuasion approach** (v2.0):
 - Skeptic: "HIGH confidence feels too strong, what's the evidence?"
 - Investigation: 30+ studies, clear mechanism (psychological reactance), BUT mostly Western populations
-- Assessment: WEIRD bias detected (insufficient cross-cultural validation)
+- Assessment: WEIRD bias detected (Western, Educated, Industrialized, Rich, Democratic—most research comes from these populations, limiting universal claims)
 - Response: Downgrade to MODERATE honestly (evidence limitation acknowledged)
 - Result: Convinced by honest evidence assessment
 

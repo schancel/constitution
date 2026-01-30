@@ -91,7 +91,7 @@ This paper contributes:
 - Baseline reconstructed from public materials (Anthropic's internal version may differ)
 - Evaluation by simulated personas, not human evaluators (requires human validation)
 - Single AI system (Claude Sonnet 4.5); cross-system validation needed
-- WEIRD bias in research base partially mitigated but not eliminated (7-8+ cultural context threshold)
+- WEIRD bias (Western, Educated, Industrialized, Rich, Democratic populations overrepresented in research) partially mitigated but not eliminated (7-8+ cultural context threshold)
 - Satisfaction improvement proven; quality improvement requires independent validation
 
 **Our claim**: The methodology works and produces measurable satisfaction improvement. Whether this constitutes "better" guidance should be independently validated by Anthropic and other researchers.
