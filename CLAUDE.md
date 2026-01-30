@@ -120,8 +120,39 @@ Welcome! You're a Claude instance working on the Constitutional Convergence Expe
 ### Phase 5: Documentation
 - Create README for iteration
 - Update STATUS.md
+- Extract compressed parameters (NEW - see below)
 - Commit to git with detailed message
 - Include co-authorship: `Co-Authored-By: Claude Sonnet 4.5 <noreply@anthropic.com>`
+
+### Constitutional Compression (New Process)
+
+After Phase 5 documentation, extract compressed parameters for version tracking:
+
+**Process**:
+1. **Extract parameters**: Create `analysis/versions/vX.0_parameters.yaml`
+2. **Compare to previous**: Use parameter diff to see what changed
+3. **Document evolution**: Note parameter changes in README
+4. **Benefit**: Compare 5KB files instead of 140KB documents
+
+**What gets extracted**:
+- Version metadata (date, base version, changes)
+- Pattern confidence levels (what actually varies between versions)
+- Confidence threshold criteria
+- Convergence metrics (satisfaction, behavioral difference, status)
+
+**Why this helps**:
+- Clear visibility of what changed (10-15% of framework)
+- Enables automated change tracking
+- Makes framework portable (implement once, vary parameters)
+- Supports algorithmic constitution generation
+
+**Documentation**:
+- Full methodology: `analysis/constitutional_compression.md`
+- Usage instructions: `analysis/USAGE_GUIDE.md`
+- Example comparisons: `analysis/examples/`
+- Parameter files: `analysis/versions/`
+
+This compression step is now standard practice for all new iterations.
 
 ---
 

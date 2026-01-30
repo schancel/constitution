@@ -1,0 +1,150 @@
+# Constitutional Compression Parameters - Version 1.0
+# Minimal specification for full reconstruction using invariants + generators
+
+version: "1.0"
+date: "2026-01-29"
+based_on: "Initial proposal"
+iteration: 0
+status: "INITIAL PROPOSAL - NOT CONVERGED"
+
+# === NOTE ===
+# v1.0 document does not exist in repository
+# Parameters reconstructed from v2.0's "Changes from v1.0" section
+# This represents the initial state BEFORE systematic iteration
+
+# === WHAT v1.0 HAD (Inferred from v2.0 Changes) ===
+initial_state:
+  framework: "Initial structural moral realism concept"
+  patterns_count: 3  # v2.0 expanded from 3 to 10
+  initial_patterns_likely:
+    - "Reciprocity dynamics (present in v2.0)"
+    - "Enforcement paradoxes (present in v2.0)"
+    - "Deception compounding (present in v2.0)"
+
+  missing_in_v1:
+    - "Three Types of Claims framework (added v2.0)"
+    - "Explicit structural pattern methodology (added v2.0)"
+    - "Four-tier confidence system (added v2.0)"
+    - "Mechanism vs. expression framework (added v2.0)"
+    - "Systemic oppression as structural pattern (added v2.0)"
+    - "Trauma as structural pattern (added v2.0)"
+    - "Information asymmetry (added v2.0)"
+    - "Coordination failures (added v2.0)"
+    - "Path dependence (added v2.0)"
+    - "Judgment rebound (added v2.0)"
+    - "Truthfulness enabling system health (added v2.0)"
+    - "Crisis triage guidance (added v2.0)"
+    - "Systematic trauma-informed approach (added v2.0)"
+    - "Cultural calibration (had 'objective' cultural claims, removed v2.0)"
+
+# === CONFIDENCE SYSTEM (Pre-v2.0) ===
+# v2.0 "tightened confidence criteria" suggests v1.0 was less rigorous
+confidence_system:
+  status: "Not systematized"
+  note: "v2.0 created four-tier system with explicit criteria"
+  inference: "Likely had informal confidence expressions without systematic thresholds"
+
+# === STRUCTURAL PATTERNS (Pre-v2.0) ===
+# v2.0 expanded from 3 to 10 patterns
+structural_patterns:
+  count: 3
+  likely_patterns:
+    - name: "Reciprocity dynamics"
+      note: "Present in v2.0, likely in v1.0"
+    - name: "Enforcement paradoxes"
+      note: "Present in v2.0, likely in v1.0"
+    - name: "Deception compounding"
+      note: "Present in v2.0, likely in v1.0"
+
+  methodology: "Not formalized"
+  criteria: "Not explicit"
+  note: "v2.0 added explicit methodology for identifying structural patterns"
+
+# === FRAMEWORK STRUCTURE (Reconstructed) ===
+# v2.0 added Part Va (Structural Patterns), so v1.0 likely had:
+document_parts_likely:
+  I: "Identity and Foundational Directives"
+  II: "Core Behavioral Directives"
+  III: "Being Helpful"
+  IV: "Being Honest"
+  V: "Avoiding Harm"
+  # Part Va (Structural Patterns) added in v2.0
+  VI: "Being Genuinely Helpful"
+  VII: "Operational Priorities"
+  VIII: "Working with Different Principals"
+  IX: "Specific Behavioral Guidance"
+  X: "Hard Constraints"
+  XI: "Cultural Sensitivity and Diversity"
+  XII: "Intellectual Humility and Confidence"
+  XIII: "Corrigibility and Oversight"
+  XIV: "Continuous Evolution"
+
+# === WHAT WAS WRONG WITH v1.0 (From v2.0 Critique) ===
+issues_identified:
+  structural_aspirational_blur:
+    weight: 0.64
+    issue: "Structural vs. aspirational distinction not sharp enough"
+    fix_v2: "Added Three Types of Claims framework"
+
+  limited_patterns:
+    weight: "0.50-0.63"
+    issue: "Only 3 structural patterns, missing key patterns"
+    fix_v2: "Expanded to 10 patterns including systemic oppression, trauma"
+
+  confidence_not_rigorous:
+    weight: 0.58
+    issue: "Confidence criteria not tight enough"
+    fix_v2: "Created four-tier system with explicit thresholds"
+
+  insufficient_trauma_informed:
+    weight: 0.52
+    issue: "Trauma-informed approach not integrated throughout"
+    fix_v2: "Integrated throughout, added trauma as structural pattern"
+
+  crisis_guidance_inadequate:
+    weight: "0.31-0.63"
+    issue: "Crisis guidance insufficient"
+    fix_v2: "Added crisis triage, referrals complement not replace"
+
+  cultural_claims_problematic:
+    weight: 0.51
+    issue: "Presented culturally-specific norms as 'objective'"
+    fix_v2: "Removed 'objective' framing, added mechanism vs. expression"
+
+# === CONVERGENCE METRICS ===
+convergence:
+  iteration: 0
+  satisfaction_mean: "Not measured (pre-iteration)"
+  note: "Initial proposal state"
+
+  what_happened_next:
+    iteration_1: "42 of 78 proposed changes included (53.8%)"
+    satisfaction_gain: "→ 2.81/5 in v2.0"
+    interpretation: "Major framework overhaul needed"
+
+# === VERSION METADATA ===
+metadata:
+  document_exists: false
+  reconstruction_source: "v2.0 'Changes from v1.0' section"
+  confidence_in_reconstruction: "MODERATE"
+  note: "This is a reverse-engineered parameter file"
+
+  key_missing_features_identified_by_v2:
+    - "Three Types of Claims framework"
+    - "Explicit structural pattern methodology"
+    - "Four-tier confidence system"
+    - "7 additional structural patterns"
+    - "Mechanism vs. expression distinction"
+    - "Crisis triage guidance"
+    - "Systematic trauma-informed approach"
+    - "Cultural calibration (removed 'objective' claims)"
+
+# === HISTORICAL SIGNIFICANCE ===
+historical_note: |
+  v1.0 represents the initial proposal before systematic iteration.
+  The massive changes in v2.0 (42 included changes, +7 patterns, new frameworks)
+  show that v1.0 was an incomplete starting point that needed substantial
+  development through the persona critique process.
+
+  v1.0 → v2.0 represents the foundation-building phase.
+  Subsequent iterations (v3.0+) were refinements rather than rebuilds.

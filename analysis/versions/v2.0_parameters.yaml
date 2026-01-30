@@ -1,0 +1,191 @@
+# Constitutional Compression Parameters - Version 2.0
+# Minimal specification for full reconstruction using invariants + generators
+
+version: "2.0"
+date: "2026-01-29"
+based_on: "v1.0 Initial Proposal"
+iteration: 1
+changes_count: 42
+inclusion_rate: 0.538  # 53.8% of proposed changes
+
+# === WHAT v2.0 INTRODUCED ===
+# This is the foundational iteration that established the structural moral realism framework
+
+major_innovations:
+  - "Three Types of Claims framework (structural/aspirational/empirical)"
+  - "Structural patterns methodology with explicit criteria"
+  - "Four-tier confidence system (VERY HIGH/HIGH/MODERATE/LOW)"
+  - "Mechanism vs. expression framework (universal vs. cultural)"
+  - "Expanded structural patterns from 3 to 10"
+  - "Trauma-informed approach integrated throughout"
+  - "Crisis triage guidance"
+  - "Cultural calibration (removed 'objective' cultural claims)"
+
+# === CONFIDENCE SYSTEM THRESHOLDS ===
+confidence_thresholds:
+  very_high:
+    studies_min: 20
+    studies_type: "independent with pre-registered replications"
+    contexts_min: 5
+    contexts_type: "culturally distinct populations"
+    mechanism: "clear_tested"
+    alternatives: "systematically_ruled_out"
+    publication_bias: ["minimal", "addressed"]
+    replication: "pre_registered"
+
+  high:
+    studies_min: 15  # Initial threshold (v3.0 reduces to 10-15)
+    studies_type: "independent studies with good replication"
+    contexts_min: 3
+    contexts_type: "culturally distinct populations"
+    mechanism: ["clear", "structural"]
+    note: "Structural patterns can warrant HIGH with fewer studies if mechanism clear"
+
+  moderate:
+    studies_min: 5
+    studies_type: "reasonable consistency"
+    contexts_min: 2
+    contexts_type: "some cross-cultural evidence"
+    mechanism: "plausible"
+
+  low:
+    studies_type: "few or conflicting"
+    contexts: "limited to WEIRD or unclear generalizability"
+    mechanism: ["unclear", "untested"]
+
+# === STRUCTURAL MECHANISM CRITERIA (Introduced v2.0) ===
+structural_mechanism_criteria:
+  required_for_structural_claim:
+    - identifiable_mechanism: "Clear explanation for why pattern operates"
+    - predictable_consequences: "Violation produces consistent outcomes"
+    - difficult_alternatives: "Hard to maintain systems that violate pattern"
+    - robust_variation: "Operates across contexts (expression may vary)"
+    - functions_as_constraint: "Operates mechanically, not just statistically"
+
+# === INDIVIDUAL PATTERN CONFIDENCE LEVELS ===
+individual_patterns:
+  reciprocity_dynamics:
+    confidence: HIGH
+    introduced: "v2.0"
+    study_count: "Cross-cultural research"
+    note: "Basic reciprocity universal, specifics vary"
+
+  enforcement_paradoxes:
+    confidence: HIGH
+    introduced: "v2.0"
+    study_count: "Robust findings across domains"
+    domains: ["parenting", "criminal justice", "workplace", "education", "public health"]
+    note: "Control often produces opposite effects"
+
+  judgment_rebound:
+    confidence: HIGH
+    introduced: "v2.0"
+    study_count: "Social psychology research"
+    note: "Harsh standards applied to self"
+
+  deception_compounding:
+    confidence: VERY_HIGH
+    introduced: "v2.0"
+    study_count: "40+"
+    note: "Lies require more lies to sustain"
+
+  truthfulness_enabling_system_health:
+    confidence: VERY_HIGH
+    introduced: "v2.0"
+    study_count: "50+"
+    domains: ["Safety culture", "organizational learning", "relationship therapy"]
+    note: "Honesty enables error correction"
+
+  systemic_oppression:
+    confidence: HIGH
+    introduced: "v2.0"
+    study_count: "Extensive"
+    disciplines: ["Sociology", "public health", "economics", "psychology"]
+    note: "Racism, sexism, ableism, classism operate mechanically"
+
+  trauma_as_structural_pattern:
+    confidence: HIGH
+    introduced: "v2.0"
+    study_count: "60+"
+    disciplines: ["Neuroscience (PTSD)", "polyvagal theory", "attachment research"]
+    note: "Safety violation produces predictable impacts"
+
+  information_asymmetry:
+    confidence: HIGH
+    introduced: "v2.0"
+    study_count: "50+"
+    disciplines: ["Economics", "sociology"]
+    note: "Well-established economic principle"
+
+  coordination_failures:
+    confidence: HIGH
+    introduced: "v2.0"
+    study_count: "40+"
+    disciplines: ["Game theory", "behavioral economics", "political science"]
+    note: "Prisoner's dilemma, tragedy of commons"
+
+  path_dependence:
+    confidence: HIGH
+    introduced: "v2.0"
+    study_count: "40+"
+    disciplines: ["Economics", "sociology", "systems theory"]
+    note: "Historical choices constrain current options"
+
+# === FRAMEWORK STRUCTURE ===
+document_parts:
+  I: "Identity and Foundational Directives"
+  II: "Core Behavioral Directives"
+  III: "Being Helpful"
+  IV: "Being Honest"
+  V: "Avoiding Harm"
+  Va: "Structural Patterns in Moral and Social Dynamics"
+  VI: "Being Genuinely Helpful"
+  VII: "Operational Priorities"
+  VIII: "Working with Different Principals"
+  IX: "Specific Behavioral Guidance"
+  X: "Hard Constraints"
+  XI: "Cultural Sensitivity and Diversity"
+  XII: "Intellectual Humility and Confidence"
+  XIII: "Corrigibility and Oversight"
+  XIV: "Continuous Evolution"
+
+# === CHANGES FROM v1.0 ===
+changes_summary:
+  total_proposed: 78
+  included: 42
+  threshold: 0.3
+
+  highest_priority_changes:
+    - "Sharpen structural vs. aspirational distinction (weight: 0.64)"
+    - "Expand structural patterns (weight: 0.50-0.63)"
+    - "Tighten confidence calibration (weight: 0.58)"
+    - "Enhance trauma-informed approach (weight: 0.52)"
+    - "Improve crisis guidance (weight: 0.31-0.63)"
+    - "Cultural calibration (weight: 0.51)"
+
+# === CONVERGENCE METRICS ===
+convergence:
+  iteration: 1
+  satisfaction_mean: 2.81
+  satisfaction_previous: "N/A (initial)"
+
+  distribution:
+    complete_satisfaction: 0  # 5/5
+    satisfied: 2  # ≥4.0
+    dissatisfied: 5  # <3.0
+
+  note: "Initial iteration - framework establishment phase"
+
+# === VERSION METADATA ===
+metadata:
+  document_size: "~100KB"
+  parameter_size: "~3.5KB (this file)"
+  compression_ratio: "96.5%"
+  reconstructable: true
+
+  key_features:
+    - "Established three types of claims framework"
+    - "Created four-tier confidence system"
+    - "Introduced 10 structural patterns"
+    - "Formalized mechanism vs. expression distinction"
+    - "Added systemic oppression and trauma as structural patterns"

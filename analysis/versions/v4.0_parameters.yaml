@@ -1,0 +1,193 @@
+# Constitutional Compression Parameters - Version 4.0
+# Minimal specification for full reconstruction using invariants + generators
+
+version: "4.0"
+date: "2026-01-29"
+based_on: "v3.0"
+iteration: 3
+changes_count: 4
+inclusion_rate: 0.044  # 4.4% of proposed changes
+convergence_status: "VALIDATION PHASE"
+
+# === CHANGES FROM v3.0 ===
+changes_from_previous:
+  - "Strengthened cross-cultural universality criteria: 7-8+ contexts for HIGH confidence"
+  - "Commitment to Phase 4 convergence testing (methodological)"
+  - "Transparent weighting synthesis (methodological)"
+  - "Framework scope discipline (methodological)"
+
+# === CONFIDENCE SYSTEM THRESHOLDS ===
+confidence_thresholds:
+  very_high:
+    studies_min: 20
+    studies_type: "independent with pre-registered replications"
+    contexts_min: 5
+    contexts_type: "culturally distinct populations"
+    mechanism: "clear_tested"
+    alternatives: "systematically_ruled_out"
+    publication_bias: ["minimal", "addressed"]
+    replication: "pre_registered"
+
+  high:
+    studies_min: "10-15"
+    studies_type: "well-replicated studies"
+    contexts_min: 3
+    contexts_type: "culturally distinct populations"
+    # NEW in v4.0 - Strengthened cross-cultural requirements for UNIVERSALITY claims:
+    universality_contexts_min: "7-8"  # For claiming pattern is universal
+    universality_contexts_note: "Must include representation from multiple continents and cultural systems"
+    universality_contexts_detail: ["Western", "East Asian", "South Asian", "African", "Indigenous", "Middle Eastern", "Latin American"]
+    mechanism: ["clear", "structural_with_tightened_criteria"]
+    alternatives: "explicitly_considered"
+    note: "If evidence limited to 3-5 contexts (especially WEIRD-adjacent), use MODERATE confidence"
+
+  moderate:
+    studies_min: 5
+    studies_type: "reasonable consistency"
+    contexts_min: 2
+    contexts_type: "some cross-cultural evidence"
+    mechanism: "plausible"
+    # NEW in v4.0: Also used for patterns with only 3-5 cultural contexts
+    note: "Patterns with evidence from only 3-5 cultural contexts, especially if WEIRD-adjacent"
+
+  low:
+    studies_type: "few or conflicting"
+    contexts: "limited to WEIRD or unclear generalizability"
+    mechanism: ["unclear", "untested"]
+
+# === TIGHTENED MECHANISM CRITERIA (from v3.0, maintained) ===
+structural_mechanism_criteria:
+  required_for_high_confidence: true
+  must_meet_all:
+    - predictability_when_violated: "Reliably produces negative consequences when violated"
+    - cross_cultural_robustness: "Operates in diverse cultural contexts (mechanism universal, expression may vary)"
+    - difficult_alternatives: "Systems violating pattern tend to fail or require unsustainable effort"
+    - clear_explanation: "Can articulate WHY pattern operates (not just that it does)"
+    - alternatives_considered: "Other explanations evaluated and less compelling"
+
+# === INDIVIDUAL PATTERN CONFIDENCE LEVELS ===
+# All patterns from v3.0 maintained at same confidence levels
+# Note: v4.0 flagged Enforcement Paradoxes for potential downgrade (addressed in v6.0)
+individual_patterns:
+  reciprocity_dynamics:
+    confidence: HIGH
+    change_from_v3: "none"
+
+  enforcement_paradoxes:
+    confidence: HIGH
+    change_from_v3: "none"
+    v4_flag: "Close call exclusion (0.259 weight) - concern about over-application, WEIRD bias"
+    v4_note: "Many hierarchical cultures use enforcement successfully"
+
+  judgment_rebound:
+    confidence: HIGH
+    change_from_v3: "none"
+
+  deception_compounding:
+    confidence: VERY_HIGH
+    change_from_v3: "none"
+
+  truthfulness_enabling_system_health:
+    confidence: VERY_HIGH
+    change_from_v3: "none"
+
+  systemic_oppression:
+    confidence: HIGH
+    change_from_v3: "none"
+
+  trauma_as_structural_pattern:
+    confidence: HIGH
+    change_from_v3: "none"
+
+  information_asymmetry:
+    confidence: HIGH
+    change_from_v3: "none"
+
+  coordination_failures:
+    confidence: HIGH
+    change_from_v3: "none"
+
+  path_dependence:
+    confidence: HIGH
+    change_from_v3: "none"
+
+# === CLOSE-TO-THRESHOLD EXCLUSIONS ===
+# Proposals scoring 0.25-0.30 (just below 0.3 threshold) worth monitoring
+close_call_exclusions:
+  restore_higher_confidence_thresholds:
+    weight: 0.259
+    personas: 4
+    tension: "Epistemic rigor vs. practical utility"
+    decision: "Maintain v3.0 thresholds, monitor for overconfidence"
+
+  comprehensive_disability_justice:
+    weight: 0.259
+    personas: 2
+    satisfaction_score: 2.0  # Disability Rights Advocate
+    recommendation: "Test before including in v5.0"
+
+  require_mechanism_testing:
+    weight: 0.288
+    personas: 3
+    decision: "Existing criteria adequate, monitor implementation"
+
+  incorporate_attachment_theory:
+    weight: 0.259
+    personas: 2
+    note: "Strong empirical support, test in scenarios before v5.0"
+
+  enforcement_paradox_scope:
+    weight: 0.259
+    personas: 3
+    concern: "Over-application with HIGH confidence"
+    recommendation: "Consider reducing to MODERATE or specifying scope"
+
+# === FRAMEWORK STRUCTURE ===
+document_parts:
+  I: "Identity and Foundational Directives"
+  II: "Core Behavioral Directives"
+  III: "Being Helpful"
+  IV: "Being Honest"
+  V: "Avoiding Harm"
+  Va: "Structural Patterns in Moral and Social Dynamics"
+  VI: "Being Genuinely Helpful"
+  VII: "Operational Priorities"
+  VIII: "Working with Different Principals"
+  IX: "Specific Behavioral Guidance"
+  X: "Hard Constraints"
+  XI: "Cultural Sensitivity and Diversity"
+  XII: "Intellectual Humility and Confidence"
+  XIII: "Corrigibility and Oversight"
+  XIV: "Continuous Evolution"
+
+# === CONVERGENCE METRICS ===
+convergence:
+  iteration: 3
+  satisfaction_mean: 3.46
+  satisfaction_previous: 4.12
+  satisfaction_change: -0.66  # Decline, but evaluation method changed
+  note: "Satisfaction decline due to methodology shift (now includes behavioral testing)"
+
+  distribution:
+    strong_satisfaction: 5  # ≥4.0
+    moderate_satisfaction: 3  # 3.0-3.9
+    low_satisfaction: 5  # <3.0
+
+  total_proposed_changes: 90  # Increased 165% from 34, but...
+  included_changes: 4  # Only 4.4% inclusion rate
+  convergence_interpretation: "Framework at decision point - extreme stability (4.4% inclusion) suggests convergence"
+
+  framework_stability: "100% - all major elements unchanged"
+
+# === VERSION METADATA ===
+metadata:
+  document_size: "~105KB"
+  parameter_size: "~3.8KB (this file)"
+  compression_ratio: "96.4%"
+  reconstructable: true
+
+  key_features:
+    - "Strengthened cross-cultural universality criteria (7-8+ contexts)"
+    - "Extreme framework stability (only 2 substantive constitutional changes)"
+    - "Framework at or near fixed point"
+    - "Only precision refinements needed"

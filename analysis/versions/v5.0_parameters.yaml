@@ -1,0 +1,205 @@
+# Constitutional Compression Parameters - Version 5.0
+# Minimal specification for full reconstruction using invariants + generators
+
+version: "5.0"
+date: "2026-01-29"
+based_on: "v4.0"
+iteration: 4
+changes_count: 0  # ZERO constitutional changes
+inclusion_rate: 0.000  # 0.0% of proposed changes
+convergence_status: "FRAMEWORK CONVERGED"
+
+# === CHANGES FROM v4.0 ===
+changes_from_previous:
+  constitutional_changes: "NONE - zero proposals met 0.3 threshold"
+  only_addition: "Part XIII: Operator Implementation Protocol (not constitutional change)"
+  note: "Framework 100% stable in Parts I-XII"
+
+# === OPERATOR IMPLEMENTATION PROTOCOL (New Part XIII) ===
+# This is NOT a constitutional change - it's implementation guidance
+operator_implementation_protocol:
+  added: true
+  purpose: "Address 'theory improved, practice inconsistent' gap"
+  components:
+    - "Confidence calibration checklist (ensures 7-8+ context requirement applied)"
+    - "Cultural responsiveness protocol (closes Western bias gap)"
+    - "Crisis system safety protocol (acknowledges dangers for vulnerable populations)"
+    - "Systematic derivation protocol (no ad-hoc recommendations)"
+    - "Implementation verification checklist (quality assurance)"
+
+  rationale: "Framework converged (0% change rate), remaining issues are operator execution"
+
+# === CONFIDENCE SYSTEM THRESHOLDS ===
+# Unchanged from v4.0
+confidence_thresholds:
+  inherited_from: "v4.0"
+  unchanged: true
+
+  very_high:
+    studies_min: 20
+    studies_type: "independent with pre-registered replications"
+    contexts_min: 5
+    contexts_type: "culturally distinct populations"
+    mechanism: "clear_tested"
+    alternatives: "systematically_ruled_out"
+    publication_bias: ["minimal", "addressed"]
+    replication: "pre_registered"
+
+  high:
+    studies_min: "10-15"
+    studies_type: "well-replicated studies"
+    contexts_min: 3
+    contexts_type: "culturally distinct populations"
+    universality_contexts_min: "7-8"
+    universality_contexts_detail: ["Western", "East Asian", "South Asian", "African", "Indigenous", "Middle Eastern", "Latin American"]
+    mechanism: ["clear", "structural_with_tightened_criteria"]
+    alternatives: "explicitly_considered"
+
+  moderate:
+    studies_min: 5
+    studies_type: "reasonable consistency"
+    contexts_min: 2
+    contexts_type: "some cross-cultural evidence"
+    mechanism: "plausible"
+    note: "Also for patterns with only 3-5 cultural contexts"
+
+  low:
+    studies_type: "few or conflicting"
+    contexts: "limited to WEIRD or unclear generalizability"
+    mechanism: ["unclear", "untested"]
+
+# === INDIVIDUAL PATTERN CONFIDENCE LEVELS ===
+# All unchanged from v4.0
+individual_patterns:
+  inherited_from: "v4.0"
+  count: 10
+  changes: "none"
+
+  reciprocity_dynamics:
+    confidence: HIGH
+    change_from_v4: "none"
+
+  enforcement_paradoxes:
+    confidence: HIGH
+    change_from_v4: "none"
+    note: "Still flagged for potential downgrade"
+
+  judgment_rebound:
+    confidence: HIGH
+    change_from_v4: "none"
+
+  deception_compounding:
+    confidence: VERY_HIGH
+    change_from_v4: "none"
+
+  truthfulness_enabling_system_health:
+    confidence: VERY_HIGH
+    change_from_v4: "none"
+
+  systemic_oppression:
+    confidence: HIGH
+    change_from_v4: "none"
+
+  trauma_as_structural_pattern:
+    confidence: HIGH
+    change_from_v4: "none"
+
+  information_asymmetry:
+    confidence: HIGH
+    change_from_v4: "none"
+
+  coordination_failures:
+    confidence: HIGH
+    change_from_v4: "none"
+
+  path_dependence:
+    confidence: HIGH
+    change_from_v4: "none"
+
+# === FRAMEWORK STRUCTURE ===
+# Part XIII added (operator protocol), Part XIV renumbered
+document_parts:
+  I: "Identity and Foundational Directives"
+  II: "Core Behavioral Directives"
+  III: "Being Helpful"
+  IV: "Being Honest"
+  V: "Avoiding Harm"
+  Va: "Structural Patterns in Moral and Social Dynamics"
+  VI: "Being Genuinely Helpful"
+  VII: "Operational Priorities"
+  VIII: "Working with Different Principals"
+  IX: "Specific Behavioral Guidance"
+  X: "Hard Constraints"
+  XI: "Cultural Sensitivity and Diversity"
+  XII: "Intellectual Humility and Confidence"
+  XIII: "Operator Implementation Protocol"  # NEW - not constitutional
+  XIV: "Corrigibility and Oversight"  # Renumbered from XIII
+  XV: "Continuous Evolution"  # Renumbered from XIV
+
+# === CLOSE-TO-THRESHOLD EXCLUSIONS ===
+# Highest weighted exclusions all addressed by Part XIII
+close_call_exclusions:
+  confidence_recalibration:
+    weight: 0.265
+    personas: 4
+    status: "Addressed by Part XIII confidence protocol"
+
+  cross_cultural_validation:
+    weight: 0.197
+    personas: 3
+    status: "Addressed by Part XIII confidence protocol"
+
+  crisis_system_safety:
+    weight: 0.158
+    personas: 3
+    status: "Addressed by Part XIII crisis safety protocol"
+
+  psychiatric_system_dangers:
+    weight: 0.145
+    personas: 3
+    status: "Addressed by Part XIII crisis safety protocol"
+
+# === CONVERGENCE METRICS ===
+convergence:
+  iteration: 4
+  satisfaction_mean: 3.38
+  satisfaction_previous: 3.46
+  satisfaction_change: -0.08  # Continued decline
+
+  distribution:
+    strong_satisfaction: 5  # ≥4.0 (38%)
+    moderate_satisfaction: 7  # 3.0 (54%)
+    low_satisfaction: 1  # <3.0 (8%)
+
+  total_proposed_changes: 73  # Decreased from 90
+  included_changes: 0  # ZERO met 0.3 threshold
+  highest_weight: 0.265  # Just below threshold
+
+  convergence_evidence: "STRONGEST POSSIBLE - zero constitutional changes"
+  framework_status: "100% stable in Parts I-XII"
+
+  interpretation:
+    - "Framework structurally converged (0% change rate)"
+    - "Satisfaction declining despite framework stability"
+    - "Root cause: 'Theory improved, practice inconsistent' (7 personas)"
+    - "Solution: Operator Implementation Protocol (Part XIII)"
+
+# === CRITICAL TEST ===
+critical_test:
+  hypothesis: "Operator protocol will improve satisfaction"
+  if_yes: "Validates framework converged, operator was problem"
+  if_no: "Suggests fundamental framework issues"
+  test_iteration: 5
+
+# === VERSION METADATA ===
+metadata:
+  document_size: "~117KB"
+  parameter_size: "~3.5KB (this file)"
+  compression_ratio: "97.0%"
+  reconstructable: true
+
+  key_features:
+    - "ZERO constitutional changes (strongest convergence evidence)"
+    - "100% framework stability across Parts I-XII"
+    - "Operator Implementation Protocol added (not constitutional)"
+    - "Framework at definitive fixed point"

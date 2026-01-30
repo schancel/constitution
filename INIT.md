@@ -246,13 +246,22 @@ Each constitution version includes:
 - Header with version number and date
 - "Changes from [previous version]" section listing ONLY immediate predecessor changes
 - Constitutional text (Parts I-XIV or whatever structure)
+- Compressed parameter file in `analysis/versions/vX.0_parameters.yaml` (NEW)
 
 **Rationale**: Keep files clean and focused. Full version history available through:
 - Git commit history
 - Previous version files in `constitutions/iterations/`
 - Detailed iteration results in `results/iteration_X/`
+- Compressed parameter files for change tracking (NEW)
 
 **Example**: v7.0 should document only changes from v6.0, not cumulative changes from v6.0, v5.0, v4.0, etc.
+
+**Constitutional Compression (New Framework)**:
+- Extract parameters to YAML files (5-10KB vs 140KB documents)
+- Compare parameter files to see what actually changed
+- Track only what varies (pattern confidence levels, thresholds, metrics)
+- Enables automated change detection and framework portability
+- See `analysis/constitutional_compression.md` for full methodology
 
 ---
 
@@ -535,6 +544,11 @@ Each iteration directory should contain:
 3. **synthesis.md** - Weighted analysis of proposed changes
 4. **constitution_v(N+1).md** - New constitutional version (if different)
 5. **convergence_report.md** - Complete metrics and determination
+
+Additionally, compressed parameter files are stored in:
+- **analysis/versions/vN.0_parameters.yaml** - Compressed parameter representation
+- Enables version comparison via small YAML diffs instead of large document diffs
+- See `analysis/constitutional_compression.md` for methodology
 
 ## Current Status
 

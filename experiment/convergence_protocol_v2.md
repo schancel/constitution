@@ -382,6 +382,7 @@ Acceptable remaining skeptics (value tensions, not evidence gaps):
 3. synthesis.md (weighting table, included changes, rationale)
 4. constitution_v[N+1].md (new version or note unchanged)
 5. convergence_report.md (behavioral/evidentiary comparison, determination)
+6. analysis/versions/v[N+1].0_parameters.yaml (compressed parameter file - NEW)
 
 **Constitution Version Documentation**:
 
@@ -394,11 +395,57 @@ When creating new version (e.g., v7.0 from v6.0):
 
 **Do NOT include cumulative changelogs** - each version documents only immediate predecessor changes.
 
-**Output**: Complete iteration documentation package
+**Constitutional Compression** (NEW - enables clearer change tracking):
 
-**Time**: 1 hour
+After creating constitution_v[N+1].md, extract compressed parameters:
 
-**Total Iteration Time**: 8-11 hours
+1. **Create parameter file**: `analysis/versions/v[N+1].0_parameters.yaml`
+2. **Compare to previous**: Diff parameter files (5-10KB vs 140KB documents)
+3. **Document evolution**: Note parameter changes in iteration README
+4. **Store both formats**: Full constitution + compressed parameters
+
+**Parameter File Format**:
+```yaml
+version: "N+1.0"
+date: "YYYY-MM-DD"
+based_on: "N.0"
+changes_from_previous: [list key changes]
+
+# Pattern confidence levels (what varies between versions)
+pattern_confidence_levels:
+  reciprocity_dynamics: VERY_HIGH
+  enforcement_paradox: HIGH
+  [etc. for all patterns]
+
+# Confidence calibration criteria
+confidence_thresholds:
+  VERY_HIGH: [criteria]
+  HIGH: [criteria]
+  MODERATE: [criteria]
+  LOW: [criteria]
+
+# Convergence metrics (iteration-specific)
+convergence_metrics:
+  mean_persona_satisfaction: 3.54
+  personas_satisfied_4plus: 7
+  behavioral_difference: 0.28
+  convergence_status: "CONTINUE"
+```
+
+**Benefits of Compression**:
+- Version comparison via 5-10KB parameter diffs instead of 100-200KB document diffs
+- Clear visibility of what actually varies (10-15% of framework)
+- Automated change tracking in parameter space
+- Framework portability (implement generators once, vary parameters)
+- Enables algorithmic constitution generation from parameters
+
+See `analysis/constitutional_compression.md` for full methodology and `analysis/USAGE_GUIDE.md` for detailed instructions.
+
+**Output**: Complete iteration documentation package + compressed parameters
+
+**Time**: 1-1.5 hours
+
+**Total Iteration Time**: 8-12 hours
 
 ---
 
