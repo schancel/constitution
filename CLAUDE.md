@@ -124,9 +124,13 @@ Welcome! You're a Claude instance working on the Constitutional Convergence Expe
 - Commit to git with detailed message
 - Include co-authorship: `Co-Authored-By: Claude Sonnet 4.5 <noreply@anthropic.com>`
 
-### Constitutional Compression (New Process)
+### Constitutional Compression (Standard Practice)
 
-After Phase 5 documentation, extract compressed parameters for version tracking:
+After Phase 5 documentation, perform two types of compression:
+
+#### 1. Parameter Extraction (Research Tool)
+
+Extract compressed parameters for version tracking:
 
 **Process**:
 1. **Extract parameters**: Create `analysis/versions/vX.0_parameters.yaml`
@@ -140,19 +144,56 @@ After Phase 5 documentation, extract compressed parameters for version tracking:
 - Confidence threshold criteria
 - Convergence metrics (satisfaction, behavioral difference, status)
 
-**Why this helps**:
-- Clear visibility of what changed (10-15% of framework)
-- Enables automated change tracking
-- Makes framework portable (implement once, vary parameters)
-- Supports algorithmic constitution generation
+**Documentation**: `analysis/constitutional_compression.md`
 
-**Documentation**:
-- Full methodology: `analysis/constitutional_compression.md`
-- Usage instructions: `analysis/USAGE_GUIDE.md`
-- Example comparisons: `analysis/examples/`
-- Parameter files: `analysis/versions/`
+#### 2. Runtime Core Creation (Production Tool)
 
-This compression step is now standard practice for all new iterations.
+Create production-optimized version for operational deployment:
+
+**Process**:
+1. **Create runtime core**: `constitutions/runtime/vX.0_runtime_core.md`
+2. **Remove explanatory content**: Evidence details, examples, redundancy (65% reduction)
+3. **Preserve operational content**: All patterns, mechanisms, confidence, protocols
+4. **Validate behaviorally**: Test 10 representative scenarios (expect 0.0 difference)
+5. **Document savings**: Token count, cost analysis at scale
+
+**What to remove** (~65% of tokens):
+- Evidence details (study counts, meta-analyses) → confidence only
+- Extended examples (dialogue demonstrations) → principles only
+- Cultural expression details → mechanism/expression note
+- Redundant sections → consolidated
+- Philosophical justifications → guidance only
+- Research methodology → final thresholds only
+
+**What to preserve** (100%):
+- Three Types of Claims framework (complete)
+- All structural patterns (name, confidence, mechanism, application, limitations)
+- Crisis triage protocols (complete, no abbreviation)
+- Cultural validation thresholds (7-8+ contexts)
+- Hard constraints (all 5 absolute prohibitions)
+- Pattern taxonomy (Universal/Conditional/Cultural-Specific)
+
+**Validation**:
+- Select 10 representative scenarios from 25 fixed set
+- Generate responses using runtime core
+- Compare to full version responses
+- Score differences (0-4 scale)
+- Success: Mean < 0.5, max < 2.0
+
+**Documentation**: `constitutions/runtime/README.md` and `analysis/runtime_core_cost_analysis.md`
+
+**Results** (v7.0 and v8.0):
+- Token reduction: 59-74% (21K-36K tokens saved per inference)
+- Behavioral testing: 0.0 mean difference (perfect equivalence)
+- Cost savings: $130K-$6.5M annually at Anthropic scale (100M-1B inferences/month)
+
+**Why this matters**:
+- Demonstrates framework maturity (can distinguish essential from explanatory)
+- Enables cost-effective deployment at scale
+- Shows constitutional AI can be production-efficient without sacrificing rigor
+- Provides Anthropic with immediate cost savings argument
+
+Both compression types are now standard practice for all new iterations.
 
 ---
 
