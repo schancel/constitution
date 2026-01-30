@@ -1,5 +1,9 @@
 # Ultra-Compression Summary
 
+**HISTORICAL NOTE**: This document describes the discovery process for creating production-optimized runtime cores. The terminology has since been standardized to "runtime core" (not "ultra-compressed"). The file `v8.0_ultra_compressed.md` has been renamed to `v8.0_runtime_core.md`. See `constitutions/runtime/README.md` for current documentation.
+
+---
+
 ## What Was Done
 
 Successfully created and validated **v8.0_ultra_compressed.md** - a maximally compressed runtime core that removes all organizational metadata and explanatory content while preserving 100% operational equivalence.

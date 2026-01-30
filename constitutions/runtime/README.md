@@ -28,7 +28,7 @@
 
 ### v8.0 Runtime Core (RECOMMENDED - STANDARD)
 
-**File**: `v8.0_ultra_compressed.md`
+**File**: `v8.0_runtime_core.md`
 **Source**: v8.0 Full Constitution (48,846 tokens)
 **Compression**: 5,822 tokens (85% reduction from full, 6% cheaper than baseline!)
 **Status**: **Production-ready, economically superior to baseline**
@@ -69,7 +69,7 @@
 - 100M inferences/month: $11K savings + 88% quality improvement
 - 1B inferences/month: $110K savings + 88% quality improvement
 
-**Validation**: See `ultra_compression_validation.md` for complete validation report
+**Validation**: See `historical/ultra_compression_validation.md` for validation report
 
 ---
 
@@ -82,13 +82,13 @@
 **v8.0_runtime_core.md** (historical intermediate, 12,561 tokens):
 - First compression: Removed evidence details, examples (74% reduction from full)
 - Still contained organizational headers and meta-annotations
-- **Status**: Superseded by v8.0_ultra_compressed.md
+- **Status**: Superseded by v8.0_runtime_core.md
 - **Use case**: Historical reference only
 
 **v8.0_pure_runtime.md** (historical intermediate, ~6,987 tokens):
 - Second compression: Removed compression metadata footer
 - Still contained organizational headers
-- **Status**: Superseded by v8.0_ultra_compressed.md
+- **Status**: Superseded by v8.0_runtime_core.md
 - **Use case**: Historical reference only
 
 **v7.0_runtime_core.md** (historical, 14,600 tokens):
